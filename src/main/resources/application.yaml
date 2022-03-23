@@ -4,7 +4,7 @@ spring:
        config:
            classpath: ehcache.xml
   jpa:
-    #database-platform: org.hibernate.dialect.Oracle10gDialect
+    database-platform: org.hibernate.dialect.Oracle10gDialect
     #database-platform: org.hibernate.dialect.Oracle10gDialect
     open-in-view: true
     hibernate:
