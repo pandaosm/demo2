@@ -15,8 +15,7 @@ public class ClientController {
 
 	@Autowired
 	private IClient iClient;
-	
-	
+	//this is client
 	@GetMapping("/getClientByCodeAgence/{codeAgence}")
 	public Client getClient(@PathVariable String codeAgence) {
 		if (!codeAgence.isEmpty() ==false && codeAgence.length()>0) {
