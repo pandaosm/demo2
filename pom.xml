@@ -96,7 +96,7 @@
 			</exclusions>
 		</dependency>
 
-	<!--	<dependency>
+		<!--	<dependency>
 			<groupId>com.capitalbanker.cgb.ws</groupId>	
 			<artifactId>common</artifactId>
 			<version>0.0.9</version>
@@ -121,14 +121,14 @@
 			<artifactId>ojdbc7</artifactId>
 			<version>11.2.0.4.0</version>
 		</dependency> -->
-		
+
 		<dependency>
-		<groupId>com.oracle</groupId>
-		<artifactId>ojdbc6</artifactId>
-		<version>11.2.0.4</version>
-	</dependency>
-	
-	
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc6</artifactId>
+			<version>11.2.0.4</version>
+		</dependency>
+
+
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger-ui</artifactId>
