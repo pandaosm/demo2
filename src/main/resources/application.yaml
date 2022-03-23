@@ -1,0 +1,47 @@
+spring:
+  cache:
+     jcache: 
+       config:
+           classpath: ehcache.xml
+  jpa:
+    #database-platform: org.hibernate.dialect.Oracle10gDialect
+    #database-platform: org.hibernate.dialect.Oracle10gDialect
+    open-in-view: true
+    hibernate:
+      #ddl-auto: validate
+          #ddl-auto: update
+        ddl-auto: none
+    properties:
+        hibernate:
+           show_sql: true
+           use_sql_comments: true
+           format_sql: true
+
+  datasource:
+    #url: jdbc:oracle:thin:@10.180.71.44:1521/EXP
+    #username: boabf
+    #password: boabf
+    url: jdbc:oracle:thin:@localhost:1521/xe
+    username: system
+    password: oracle
+    #url: jdbc:oracle:thin:@LOCALHOST:1521/XE
+    #username: GR_SMI
+    #password: GR_SMI
+    driver-class-name: oracle.jdbc.OracleDriver
+
+#logging:
+#  level:
+#    org.hibernate.SQL: DEBUG
+#    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+
+
+server:
+        port: 8883
+
+management:
+        endpoints:   
+                   web:
+                       exposure: 
+                                include: "*"
+                                
+                                

@@ -1,0 +1,15 @@
+
+image: openjdk:11-stretch
+
+stages:
+  - build
+  - test
+maven-build:
+  image: maven:3-jdk-11
+  stage: build
+  script: "mvn package -B"
+  artifacts:
+    paths:  
+            - target/demoRef-0.0.01-SNAPSHOT.jar
+            
+            
