@@ -55,13 +55,13 @@ public class AccountController {
 	 * return response; }
 	 */
 	
-	@GetMapping("/Accounts")
-	@Cacheable(key = "listeAccount", value = "listeAccountCache")
-	public List<Account> getAllAccounts()
-			throws Exception {
-
-		return iAccount.findAll();
-	}
+//	@GetMapping("/Accounts")
+//	@Cacheable(key = "listeAccount", value = "listeAccountCache")
+//	public List<Account> getAllAccounts()
+//			throws Exception {
+//
+//		return iAccount.findAll();
+//	}
 	
 	
 
@@ -102,16 +102,16 @@ public class AccountController {
 	
 
 //Java reactive
-	@GetMapping("/getAccountRemote")
-	@Cacheable(key = "getAccount", value = "getAccountCache")
-	public Account getAccount() {
-		WebClient web = WebClient.create();
-		WebClient.ResponseSpec responseSpec = web.get().uri(
-				"https://localhost:10402/account/getAccount?language=EN&customerIdList=403361&withTotalAmountExpenses=true&accountNumber=04033610000")
-				.retrieve();
-		Account responseBody = responseSpec.bodyToMono(Account.class).block();
-		return responseBody;
-	}
+//	@GetMapping("/getAccountRemote")
+//	@Cacheable(key = "getAccount", value = "getAccountCache")
+//	public Account getAccount() {
+//		WebClient web = WebClient.create();
+//		WebClient.ResponseSpec responseSpec = web.get().uri(
+//				"https://localhost:10402/account/getAccount?language=EN&customerIdList=403361&withTotalAmountExpenses=true&accountNumber=04033610000")
+//				.retrieve();
+//		Account responseBody = responseSpec.bodyToMono(Account.class).block();
+//		return responseBody;
+//	}
 	
 //	@GetMapping("/cacheAccountsStatus")
 //	Status allAccountCache(){
