@@ -1,14 +1,22 @@
-image: maven:latest
-build : 
+#mage: maven:latest
+#build : 
+#  stage: build
+ # script: 
+  #        - echo "just tezst for mvn compile"
+   #       - mvn compile
+#test: 
+ # stage: test
+  #script: 
+   #       - echo "just tezst for mvn compile"
+    #      - mvn clean test -e switch
+          
+maven-build:
+  image: maven:3-jdk-11
   stage: build
-  script: 
-          - echo "just tezst for mvn compile"
-          - mvn compile
-test: 
-  stage: test
-  script: 
-          - echo "just tezst for mvn compile"
-          - mvn clean test
+  script: "mvn package -B"
+  artifacts:
+    paths:
+      - target/*.jar
       
       
       
