@@ -1,16 +1,25 @@
-#image: maven:latest
-stages:
-  - build
-
-#clean:
+image: maven:latest
+build : 
+  stage: build
+  script: 
+      - mvn compile
+test: 
+  stage: test
+  script: 
+      - mvn clean test
+      
+      
+      
+      
+#      clean:
  # stage: build
 
   #script:
 
-    #- mvn clean packag
+   # - mvn clean package
     
-build-image:
-  stage: build-image
-  script:
-    - echo "Building Docker Image..."
-    - docker build -t dockerfileapp .
+#build-image:
+ # stage: build-image
+  #script:
+   # - echo "Building Docker Image..."
+    #- docker build -t dockerfileapp .
