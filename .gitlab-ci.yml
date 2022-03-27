@@ -2,6 +2,7 @@ image: maven:latest
 build : 
   stage: build
   script: 
+          - echo "just tezst for mvn compile"
           - mvn compile
 test: 
   stage: test
