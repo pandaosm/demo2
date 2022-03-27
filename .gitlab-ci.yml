@@ -6,4 +6,4 @@ clean:
 
   script:
     - echo "Cleaning leftovers from previous builds"
-    - -mvn compile"
+    - mvn compile
