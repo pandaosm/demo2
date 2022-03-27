@@ -1,4 +1,4 @@
-#mage: maven:latest
+image: maven:latest
 #build : 
 #  stage: build
  # script: 
@@ -11,7 +11,6 @@
     #      - mvn clean test -e switch
           
 maven-build:
-  image: maven:3-jdk-11
   stage: build
   script: "mvn package -B"
   artifacts:
