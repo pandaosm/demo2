@@ -1,13 +1,13 @@
-image: maven:latest
+#image: maven:latest
 stages:
   - build
 
-clean:
-  stage: build
+#clean:
+ # stage: build
 
-  script:
-    - echo "Cleaning leftovers from previous builds"
-    - mvn clean packag
+  #script:
+
+    #- mvn clean packag
     
 build-image:
   stage: build-image
