@@ -1,43 +1,9 @@
 stages:
-  - prebuild
   - build
-  - deploy
-  - cleanup
 
-.base_deploy: &base_deploy
-  stage: deploy
-  script:
-    - type multiwerf && . $(multiwerf use 1.0 alpha --as-file)
-    - type werf && source <(werf ci-env gitlab --tagging-strategy tag-or-branch --verbose)
-    - source common_envs.sh
-    - werf deploy --stages-storage :local
-  dependencies:
-    - Prebuild
-  except:
-    refs:
-      - schedules
-
-Prebuild:
-  stage: prebuild
-  script:
-    - bash ./generate_artifacts 1> common_envs.sh
-    - cat ./common_envs.sh
-  artifacts:
-    paths:
-      - releases.yml
-      - common_envs.sh
-    expire_in: 2 week
-
-Build:
+clean:
   stage: build
-  script:
-    - type multiwerf && . $(multiwerf use 1.0 alpha --as-file)
-    - type werf && source <(werf ci-env gitlab --tagging-strategy tag-or-branch --verbose)
-    - source common_envs.sh
-    - werf build-and-publish --stages-storage :local
-  except:
-    refs:
-      - schedules
-  dependencies:
-    - Prebuild
 
+  script:
+    - echo "Cleaning leftovers from previous builds"
+    - -mvn compile"
