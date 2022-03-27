@@ -6,4 +6,10 @@ clean:
 
   script:
     - echo "Cleaning leftovers from previous builds"
-    - mvn clean package
+    - mvn clean packag
+    
+build-image:
+  stage: build-image
+  script:
+    - echo "Building Docker Image..."
+    - docker build -t dockerfileapp .
