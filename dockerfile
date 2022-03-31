@@ -1,6 +1,9 @@
 # Use an OpenJDK Runtime as a parent image
 #FROM openjdk:11-jre-alpine
 FROM amazoncorretto:11-alpine-jdk
+#FROM adoptopenjdk/openjdk15:ubi
+
+
 
 # Define environment variables
 ENV SPRING_OUTPUT_ANSI_ENABLED=ALWAYS \JAVA_OPTS=""
