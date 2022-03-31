@@ -10,13 +10,18 @@ image: maven:latest
    #       - echo "just tezst for mvn compile"
     #      - mvn clean test -e switch
           
-maven-build:
+build:
   stage: build
-  script: "mvn package -B"
-  artifacts:
-    paths:
-      - target/*.jar
-      
+  script:
+    - mvn package -U
+    
+# maven-build:
+ #  stage: build
+#   script: "mvn package -B"
+ #  artifacts:
+  #   paths:
+   #    - target/*.jar
+    #   
       
       
       
