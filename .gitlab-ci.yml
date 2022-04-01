@@ -13,7 +13,7 @@ image: maven:latest
 build:
   stage: build
   script:
-    - mvn package -U
+    - mvn package
     
 # maven-build:
  #  stage: build
