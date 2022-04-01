@@ -1,3 +1,6 @@
+
+variables: 
+ MAVEN_OPTS: -Dmaven.repo.local=m2/repository
 image: driv/docker-maven-java-oracle:latest
 #build : 
 #  stage: build
@@ -21,6 +24,11 @@ maven-build:
   artifacts:
     paths:
       - target/*.jar
+      
+cache: 
+   path: 
+        - .m2/repository
+        - target
 # maven-build:
  #  stage: build
 #   script: "mvn package -B"
