@@ -38,7 +38,8 @@ public class DemoApplication implements CommandLineRunner{
 		
 		Client client= new Client();
 		
-		
+		LOGGER.info("*****************info**************");
+			
         Client product = repository.findByCustomerId("A1");
         
         System.out.println(product.getCustomerName());
