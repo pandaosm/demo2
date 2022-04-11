@@ -1,7 +1,7 @@
 
 variables: 
  MAVEN_OPTS: -Dmaven.repo.local=m2/repository
-image: driv/docker-maven-java-oracle:latest
+image: maven:3-jdk-8
 #build : 
 #  stage: build
  # script: 
@@ -17,6 +17,10 @@ image: driv/docker-maven-java-oracle:latest
 #  stage: build
  # script:
   #  - mvn package
+build:
+  stage: build
+  script:
+    - mvn install:install-file -Dfile=lib/ojdbc7.jar -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=11.2.0.2.0 -Dpackaging=jar compile
 maven-build:
   image: maven:3-jdk-8
   stage: build
