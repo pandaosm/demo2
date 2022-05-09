@@ -1,57 +1,11 @@
-
-variables: 
- MAVEN_OPTS: -Dmaven.repo.local=m2/repository
-image: maven:3-jdk-8
-#build : 
-#  stage: build
- # script: 
-  #        - echo "just tezst for mvn compile"
-   #       - mvn compile
-#test: 
- # stage: test
-  #script: 
-   #       - echo "just tezst for mvn compile"
-    #      - mvn clean test -e switch
-          
-#build:
-#  stage: build
- # script:
-  #  - mvn package
+image: maven:latest
+#
 build:
   stage: build
   script:
-    - mvn install:install-file -Dfile=lib/ojdbc7.jar -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=11.2.0.2.0 -Dpackaging=jar compile
-maven-build:
-  image: maven:3-jdk-8
-  stage: build
-  script: "mvn package"
-  artifacts:
-    paths:
-      - target/*.jar
-      
-cache: 
-   path: 
-        - .m2/repository
-        - target
-# maven-build:
- #  stage: build
-#   script: "mvn package -B"
- #  artifacts:
-  #   paths:
-   #    - target/*.jar
-    #   
-      
-      
-      
-#      clean:
- # stage: build
+   - mvn install:install-file -Dfile=ojdbc7.jar -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=11.2.0.4.0 -Dpackaging=jar compile
 
-  #script:
+  
+  
+ 
 
-   # - mvn clean package
-    
-#build-image:
- # stage: build-image
-  #script:
-   # - echo "Building Docker Image..."
-    #- docker build -t dockerfileapp .
