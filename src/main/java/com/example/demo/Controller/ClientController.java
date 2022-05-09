@@ -2,6 +2,8 @@ package com.example.demo.Controller;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -12,21 +14,33 @@ import com.example.demo.entity.Client;
 
 @RestController
 public class ClientController {
-
+private Logger log = LoggerFactory.getLogger(ClientController.class);
 	@Autowired
 	private IClient iClient;
 	//this is client
-	@GetMapping("/getClientByCodeAgence/{codeAgence}")
-	public Client getClient(@PathVariable String codeAgence) {
-		if (!codeAgence.isEmpty() ==false && codeAgence.length()>0) {
-			Client client = iClient.findByCustomerId(codeAgence);
+	@GetMapping("/getClientByCodeAgence/{branchCode}")
+	public Client getClient(@PathVariable String branchCode) {
+		log.info("client " + branchCode)  ;
+		if (!branchCode.isEmpty() ==true && branchCode.length()>0) {
+			Client client = iClient.findByBranchCode(branchCode);
 			return client;
 		}
 		return null;
 	}
 	
 	
-	@GetMapping("/geAlltClients")
+	@GetMapping("/client/{customerId}")
+	public Client getClientBycustomerId(@PathVariable String customerId) {
+		
+		log.info("client " + customerId)  ;
+		if (!customerId.isEmpty() ==true && customerId.length() != 0) {
+			Client client = iClient.findByCustomerId(customerId);
+			return client;
+		}
+		return null;
+	}
+	
+	@GetMapping("/clients")
 	public List<Client> getAllClient() {
 		return iClient.findAll();
 		}

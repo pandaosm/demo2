@@ -16,9 +16,9 @@ import com.example.demo.entity.Account;
 public interface IAccount extends GenericRepository<Account, String> {
 
 	@Query(nativeQuery = true, countQuery = "SELECT COUNT(1)  FROM account_Temp account"
-			+ "  WHERE (1=0 or account.client In :clientId  or account.compte In :accNum) "
+			+ "  WHERE (1=0 or account.Client.customerId In :clientId  or account.compte In :accNum) "
 			+ " ORDER BY account.client, account.compte ", value = "SELECT *  FROM account_temp account  "
-					+ "WHERE (1=0 or account.client In :clientId  or account.compte In :accNum) "
+					+ "WHERE (1=0 or account.Client.customerId In :clientId  or account.compte In :accNum) "
 					+ " ORDER BY account.client, account.compte ")
 	List<Account> findAllCompte(@Param("clientId") List<String> paramList1, @Param("accNum") List<String> paramList2);
 
@@ -61,17 +61,9 @@ public interface IAccount extends GenericRepository<Account, String> {
 //	List<ProductResponseObject> getProductDistributionList(@Param("clientId") List<String> paramList1,
 //			@Param("accNum") List<String> paramList2);
 	
-	@Query(countQuery = "SELECT COUNT(1)  FROM Account account  WHERE (:clientEmpty = 'O' or account.client= :clientId)"
-			+ "  and  (:accountEmpty = 'O' or account.accountNumber= :accountNumber) "
-			+ "and  account.accountNumber = :accountNumber ORDER BY account.clientId, account.accountNumber ", 
-			value = "SELECT account  FROM Account account  WHERE (1=0 or  account.client = :clientId "
-					+ " or account.accountNumber = :accountNumber)  and  account.accountNumber = :accountNumber "
-					+ "ORDER BY account.customer.customerId, account.accountNumber ")
-	  Account getAccount(@Param("clientId") String param1 , @Param("accountNumber") String paramString);
 	
 	
-	@Query(value = "select account from Account account where account.customer.customerId='010330' and account.accountNumber='00103300036' ")
-	  List<Account> findAll();
+
 	
 	
 	@Query(value="select account from Account account where account.accountNumber=:account")

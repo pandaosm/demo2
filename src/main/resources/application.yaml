@@ -1,4 +1,7 @@
 spring:
+  jackson: 
+    serialization:
+       FAIL_ON_EMPTY_BEANS: false
   cache:
      jcache: 
        config:
@@ -19,12 +22,12 @@ spring:
            format_sql: true
 
   datasource:
-    #url: jdbc:oracle:thin:@10.180.71.44:1521/EXP
-    #username: boabf
-    #password: boabf
-    url: jdbc:oracle:thin:@localhost:1521/xe
-    username: system
-    password: oracle
+    url: jdbc:oracle:thin:@10.180.71.44:1521/EXP
+    username: boabf
+    password: boabf
+    #url: jdbc:oracle:thin:@localhost:1521/xe
+    #username: system
+    #password: oracle
     #url: jdbc:oracle:thin:@LOCALHOST:1521/XE
     #username: GR_SMI
     #password: GR_SMI
@@ -44,5 +47,6 @@ management:
                    web:
                        exposure: 
                                 include: "*"
+                                
                                 
                                 

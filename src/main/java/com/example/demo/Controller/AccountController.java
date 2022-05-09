@@ -2,18 +2,17 @@ package com.example.demo.Controller;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.reactive.function.client.WebClient;
 
 import com.example.demo.dao.IAccount;
 import com.example.demo.entity.Account;
-import com.example.demo.service.AccountListServiceRequestObject;
-import com.example.demo.service.AccountServiceRequest;
 import com.example.demo.service.SAccount;
 
 @RestController
@@ -29,6 +28,7 @@ public class AccountController {
 	@Autowired
 	private IAccount iAccount;
 	
+	private Logger log = LoggerFactory.getLogger(ClientController.class);
 	/*
 	 * @GetMapping("/getAllAccounts")
 	 * 
@@ -55,14 +55,21 @@ public class AccountController {
 	 * return response; }
 	 */
 	
-//	@GetMapping("/Accounts")
-//	@Cacheable(key = "listeAccount", value = "listeAccountCache")
-//	public List<Account> getAllAccounts()
-//			throws Exception {
-//
-//		return iAccount.findAll();
-//	}
+	@GetMapping("/account/{accountNumber}")
+	@Cacheable(key = "Account", value = "AccountCache")
+	public Account getAccount(@PathVariable String accountNumber)			throws Exception {
+		Account account = iAccount.getOne(accountNumber);
+		log.info("account for customer " + account.getCustomer().getCustomerId());
+		return account;
+	}
 	
+	
+	@GetMapping("/accounts")
+	public List<Account> getAllAccounts()			throws Exception {
+		List<Account> account = iAccount.findAll();
+		return account;
+		
+	}
 	
 
 	/*

@@ -57,8 +57,8 @@ public class SAccount {
 	
 	public Account getAccount(String customer , String acc) {
 
-	     Account account= iAccount.getAccount(customer,acc);
-	    return account ;
+	    // Account account= iAccount.getAccount(customer,acc);
+	    return null ;
 	}
 	 
 }

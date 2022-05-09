@@ -27,10 +27,7 @@ import lombok.NoArgsConstructor;
 public class Account {
 	@Id
 	@Column(name = "compte")
-	private String accountNumber;
-
-	@Column(insertable = false, updatable = false, name = "client")
-	private String client;
+	private String accountNumber; 
 
 	@Column(name = "devise")
 	private String currencyIsoCode;
@@ -55,11 +52,10 @@ public class Account {
 	
 
 
-public Account(String accountNumber, String client, String currencyIsoCode, BigDecimal availableBalance,
+public Account(String accountNumber, String currencyIsoCode, BigDecimal availableBalance,
 			Date maturityDate, BigDecimal totalComingExpenses, Client customer, String status) {
 		super();
 		this.accountNumber = accountNumber;
-		this.client = client;
 		this.currencyIsoCode = currencyIsoCode;
 		this.availableBalance = availableBalance;
 		this.maturityDate = maturityDate;
@@ -80,13 +76,7 @@ public void setAccountNumber(String accountNumber) {
 	this.accountNumber = accountNumber;
 }
 
-public String getClient() {
-	return client;
-}
 
-public void setClient(String client) {
-	this.client = client;
-}
 
 public String getCurrencyIsoCode() {
 	return currencyIsoCode;

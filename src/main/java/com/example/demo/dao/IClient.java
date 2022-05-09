@@ -16,4 +16,8 @@ public interface IClient extends JpaRepository<Client, String>{
 	
 	//@Query(countQuery = "SELECT COUNT(1)  FROM Account account  WHERE (1=0 or account.client In :clientId  or account.accountNumber In :accNum)  ORDER BY account.clientId, account.accountNumber ", value = "SELECT account.customer  FROM Account account  WHERE (1=0 or account.client In :clientId  or account.accountNumber In :accNum)  ORDER BY account.customer.customerId")
 	  //List<Client> getCustomerList(@Param("clientId") List<String> paramList1, @Param("accNum") List<String> paramList2);
+	
+	@Query(value = "select client from  Client client where client.branchCode=:branchCode")
+	Client findByBranchCode(@Param ("branchCode")String branchCode);
+	
 	}

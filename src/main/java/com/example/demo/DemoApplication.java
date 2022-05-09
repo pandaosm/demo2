@@ -36,13 +36,13 @@ public class DemoApplication implements CommandLineRunner{
 		System.setProperty("log4j.configurationFile", "log4j2-testConfig.xml");
 		LOGGER = LogManager.getLogger();
 		
-		Client client= new Client();
+	//Client client= new Client();
 		
 		LOGGER.info("*****************info**************");
 			
-        Client product = repository.findByCustomerId("A1");
+       // Client product = repository.findByCustomerId("A1");
         
-        System.out.println(product.getCustomerName());
+      //  System.out.println(product.getCustomerName());
 		
 	}
 	
