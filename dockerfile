@@ -1,6 +1,6 @@
 # Use an OpenJDK Runtime as a parent image
-#FROM openjdk:11-jre-alpine
-FROM amazoncorretto:11-alpine-jdk
+FROM openjdk:11-jre-alpine
+#FROM amazoncorretto-17
 #FROM adoptopenjdk/openjdk15:ubi
 
 
@@ -12,10 +12,12 @@ ENV SPRING_OUTPUT_ANSI_ENABLED=ALWAYS \JAVA_OPTS=""
 WORKDIR /app
 
 # Copy the executable into the container at /app
-ADD target/*.jar demoref.jar
+ADD target/*.jar clientmicro.jar
 
 # Make port 8085 available to the world outside this container
-EXPOSE 8085
+EXPOSE 8092
 
 # Run app.jar when the container launches
-CMD ["java", "-jar", "/app/demoref.jar"] 
+CMD ["java", "-jar", "/app/demoref.jar"]
+
+

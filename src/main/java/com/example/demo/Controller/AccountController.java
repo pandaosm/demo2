@@ -2,10 +2,13 @@ package com.example.demo.Controller;
 
 import java.util.List;
 
+import com.example.demo.Exception.MyResourceNotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.web.reactive.error.DefaultErrorAttributes;
 import org.springframework.cache.annotation.Cacheable;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,10 +17,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.dao.IAccount;
 import com.example.demo.entity.Account;
 import com.example.demo.service.SAccount;
+import org.springframework.web.server.ResponseStatusException;
 
 @RestController
 @RequestMapping("/account")
-public class AccountController {
+public class AccountController extends DefaultErrorAttributes {
 
 //	@Autowired
 //	private CacheManager cacheManager;
@@ -129,8 +133,13 @@ public class AccountController {
 	@GetMapping("/AllAccounts")
 	public List<Account> getAccounts(){
 
-		List<Account> response = iAccount.findAll();
-
-		return response;
+		try {
+			List<Account> response = iAccount.findAll();
+			return response;
+		}
+    catch (MyResourceNotFoundException exc) {
+		throw new ResponseStatusException(
+				HttpStatus.NOT_FOUND, "Foo Not Found", exc);
+	}
 	}
 }

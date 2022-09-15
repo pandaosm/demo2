@@ -5,11 +5,6 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
 
 @Entity
 @Table(name="client_Temp")
@@ -40,7 +35,7 @@ public class Client {
 		this.branchCode = branchCode;
 	}
 
-	public String getCustomerName() {
+	public String getCustomerName(String fofana) {
 		return customerName;
 	}
 
