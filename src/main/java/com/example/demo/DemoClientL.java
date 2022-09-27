@@ -31,11 +31,11 @@ public class DemoClientL implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("test boa client");
+		System.out.println("---------------------test boa client------------------------");
 		System.setProperty("log4j.configurationFile", "log4j2-testConfig.xml");
 		LOGGER = LogManager.getLogger();
 		
-	//Client client= new Client();
+	//Client();
 		
 		LOGGER.info("*****************info**************");
 			
