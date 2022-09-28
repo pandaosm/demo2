@@ -14,7 +14,11 @@ import com.example.demo.entity.Client;
 
 @RestController
 public class ClientController {
-private Logger log = LoggerFactory.getLogger(ClientController.class);
+
+	public ClientController() {
+	}
+
+	private Logger log = LoggerFactory.getLogger(ClientController.class);
 	@Autowired
 	private IClient iClient;
 	//this is client

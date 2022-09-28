@@ -42,11 +42,13 @@ class DemoApplicationTests {
 		LOGGER = LogManager.getLogger();
 	}
 
-//	@Test
-//	public void testFindAll() {
-//		List<Account> items = iAccount.findAll();
-//
-//	}
+	@Test
+	public void testFindAll() {
+		List<Account> items = iAccount.findAll();
+		assertThat(3);
+
+
+	}
 //
 //	@Test
 //	public void getSaveNewProduct() throws Exception {
