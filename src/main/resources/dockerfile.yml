@@ -1,0 +1,4 @@
+FROM openjdk:17
+ADD target/*.jar demoClientL.jar
+ENTRYPOINT ["java", "-jar","demoClientL.jar"]
+EXPOSE 8080

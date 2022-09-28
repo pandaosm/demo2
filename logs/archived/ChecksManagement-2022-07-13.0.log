@@ -1,0 +1,455 @@
+2022-07-13 09:44:13,734|INFO |[restartedMain]||Starting DemoClientL on DESKTOP-S6OKOUJ with PID 14736 (C:\mission\BOA\java\demoClientL\target\classes started by lenovo in C:\mission\BOA\java\demoClientL)
+2022-07-13 09:44:13,797|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-07-13 09:44:14,510|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-07-13 09:44:14,512|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-13 09:44:14,515|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-13 09:44:30,628|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-13 09:44:32,342|INFO |[restartedMain]||Finished Spring Data repository scanning in 1636ms. Found 3 JPA repository interfaces.
+2022-07-13 09:44:43,347|INFO |[restartedMain]||Tomcat initialized with port(s): 8090 (http)
+2022-07-13 09:44:43,412|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8090"]
+2022-07-13 09:44:43,414|INFO |[restartedMain]||Starting service [Tomcat]
+2022-07-13 09:44:43,415|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-07-13 09:44:44,293|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-07-13 09:44:44,295|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 29778 ms
+2022-07-13 09:44:46,946|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-07-13 09:44:51,135|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-07-13 09:44:51,370|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-07-13 09:44:51,954|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-07-13 09:44:51,961|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-07-13 09:44:52,883|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-07-13 09:44:53,531|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-07-13 09:44:58,546|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-13 09:44:58,561|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-13 09:45:05,912|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-07-13 09:45:17,338|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-13 09:45:18,196|INFO |[restartedMain]||Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-07-13 09:45:18,796|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-13 09:45:19,427|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-13 09:45:19,607|WARN |[restartedMain]||Unable to start LiveReload server
+2022-07-13 09:45:25,576|INFO |[restartedMain]||Context refreshed
+2022-07-13 09:45:26,668|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-07-13 09:45:27,334|INFO |[restartedMain]||Scanning for api listing references
+2022-07-13 09:45:29,233|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_1
+2022-07-13 09:45:29,270|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_2
+2022-07-13 09:45:29,527|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8090"]
+2022-07-13 09:45:29,752|INFO |[restartedMain]||Tomcat started on port(s): 8090 (http) with context path ''
+2022-07-13 09:45:29,814|INFO |[restartedMain]||Started DemoClientL in 80.733 seconds (JVM running for 90.841)
+2022-07-13 09:49:31,445|INFO |[http-nio-8090-exec-1]||Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-13 09:49:31,447|INFO |[http-nio-8090-exec-1]||Initializing Servlet 'dispatcherServlet'
+2022-07-13 09:49:31,480|INFO |[http-nio-8090-exec-1]||Completed initialization in 32 ms
+2022-07-13 09:55:31,868|INFO |[restartedMain]||*****************info**************
+2022-07-13 09:56:06,235|INFO |[restartedMain]||*****************info**************
+2022-07-13 09:59:32,129|INFO |[Thread-1]||Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-13 09:59:32,152|INFO |[Thread-1]||Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-13 09:59:32,172|INFO |[Thread-1]||HikariPool-1 - Shutdown initiated...
+2022-07-13 09:59:32,489|INFO |[Thread-1]||HikariPool-1 - Shutdown completed.
+2022-07-13 09:59:33,002|INFO |[restartedMain]||Starting DemoClientL on DESKTOP-S6OKOUJ with PID 14736 (C:\mission\BOA\java\demoClientL\target\classes started by lenovo in C:\mission\BOA\java\demoClientL)
+2022-07-13 09:59:33,004|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-07-13 09:59:36,586|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-13 09:59:36,820|INFO |[restartedMain]||Finished Spring Data repository scanning in 233ms. Found 3 JPA repository interfaces.
+2022-07-13 09:59:38,048|INFO |[restartedMain]||Tomcat initialized with port(s): 8090 (http)
+2022-07-13 09:59:38,050|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8090"]
+2022-07-13 09:59:38,052|INFO |[restartedMain]||Starting service [Tomcat]
+2022-07-13 09:59:38,054|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-07-13 09:59:38,214|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-07-13 09:59:38,215|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 5198 ms
+2022-07-13 09:59:39,815|INFO |[restartedMain]||HikariPool-2 - Starting...
+2022-07-13 09:59:42,148|INFO |[restartedMain]||HikariPool-2 - Start completed.
+2022-07-13 09:59:42,292|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-07-13 09:59:42,347|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-07-13 09:59:43,788|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-13 09:59:43,789|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-13 09:59:45,156|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-07-13 09:59:48,461|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-13 09:59:49,144|INFO |[restartedMain]||Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-07-13 09:59:49,732|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-13 09:59:50,441|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-13 09:59:50,554|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-07-13 09:59:51,856|INFO |[restartedMain]||Context refreshed
+2022-07-13 09:59:51,858|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-07-13 09:59:51,886|INFO |[restartedMain]||Scanning for api listing references
+2022-07-13 09:59:52,182|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_1
+2022-07-13 09:59:52,201|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_2
+2022-07-13 09:59:52,277|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8090"]
+2022-07-13 09:59:52,294|INFO |[restartedMain]||Tomcat started on port(s): 8090 (http) with context path ''
+2022-07-13 09:59:52,301|INFO |[restartedMain]||Started DemoClientL in 19.527 seconds (JVM running for 953.327)
+2022-07-13 10:00:27,748|INFO |[restartedMain]||*****************info**************
+2022-07-13 10:00:34,188|INFO |[restartedMain]||*****************info**************
+2022-07-13 10:00:34,194|INFO |[restartedMain]||Condition evaluation unchanged
+2022-07-13 10:05:48,834|INFO |[http-nio-8090-exec-1]||Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-13 10:05:48,835|INFO |[http-nio-8090-exec-1]||Initializing Servlet 'dispatcherServlet'
+2022-07-13 10:05:48,869|INFO |[http-nio-8090-exec-1]||Completed initialization in 34 ms
+2022-07-13 11:33:56,281|INFO |[restartedMain]||Starting DemoClientL on DESKTOP-S6OKOUJ with PID 11368 (C:\mission\BOA\java\demoClientL\target\classes started by lenovo in C:\mission\BOA\java\demoClientL)
+2022-07-13 11:33:56,513|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-07-13 11:33:57,317|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-07-13 11:33:57,318|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-13 11:33:57,319|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-13 11:34:21,929|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-13 11:34:24,845|INFO |[restartedMain]||Finished Spring Data repository scanning in 2718ms. Found 3 JPA repository interfaces.
+2022-07-13 11:34:30,374|INFO |[restartedMain]||Tomcat initialized with port(s): 8090 (http)
+2022-07-13 11:34:30,609|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8090"]
+2022-07-13 11:34:30,627|INFO |[restartedMain]||Starting service [Tomcat]
+2022-07-13 11:34:30,646|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-07-13 11:34:31,881|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-07-13 11:34:31,882|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 34563 ms
+2022-07-13 11:34:39,009|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-07-13 11:34:43,019|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-07-13 11:34:43,418|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-07-13 11:34:43,825|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-07-13 11:34:43,831|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-07-13 11:34:44,763|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-07-13 11:34:45,538|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-07-13 11:34:55,614|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-13 11:34:55,626|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-13 11:35:01,494|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-07-13 11:35:28,892|WARN |[restartedMain]||Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountController' defined in file [C:\mission\BOA\java\demoClientL\target\classes\com\example\demo\Controller\AccountController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.Controller.AccountController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert ")" to complete Expression
+	Syntax error on token ".", @ expected after this token
+	Syntax error on token ";", @ expected
+	Syntax error, insert "SimpleName" to complete QualifiedName
+	Syntax error, insert "Identifier (" to complete MethodHeaderName
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error on token ";", { expected after this token
+	Syntax error on token "}", delete this token
+
+2022-07-13 11:35:28,903|INFO |[restartedMain]||Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-13 11:35:28,978|INFO |[restartedMain]||HikariPool-1 - Shutdown initiated...
+2022-07-13 11:35:29,196|INFO |[restartedMain]||HikariPool-1 - Shutdown completed.
+2022-07-13 11:35:29,215|INFO |[restartedMain]||Stopping service [Tomcat]
+2022-07-13 11:35:29,294|INFO |[restartedMain]||
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-13 11:35:29,311|ERROR|[restartedMain]||Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountController' defined in file [C:\mission\BOA\java\demoClientL\target\classes\com\example\demo\Controller\AccountController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.Controller.AccountController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert ")" to complete Expression
+	Syntax error on token ".", @ expected after this token
+	Syntax error on token ";", @ expected
+	Syntax error, insert "SimpleName" to complete QualifiedName
+	Syntax error, insert "Identifier (" to complete MethodHeaderName
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error on token ";", { expected after this token
+	Syntax error on token "}", delete this token
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoClientL.main(DemoClientL.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.Controller.AccountController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert ")" to complete Expression
+	Syntax error on token ".", @ expected after this token
+	Syntax error on token ";", @ expected
+	Syntax error, insert "SimpleName" to complete QualifiedName
+	Syntax error, insert "Identifier (" to complete MethodHeaderName
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error on token ";", { expected after this token
+	Syntax error on token "}", delete this token
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:216)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert ")" to complete Expression
+	Syntax error on token ".", @ expected after this token
+	Syntax error on token ";", @ expected
+	Syntax error, insert "SimpleName" to complete QualifiedName
+	Syntax error, insert "Identifier (" to complete MethodHeaderName
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error on token ";", { expected after this token
+	Syntax error on token "}", delete this token
+
+	at com.example.demo.Controller.AccountController.<init>(AccountController.java:116)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:203)
+	... 24 common frames omitted
+2022-07-13 11:46:11,907|INFO |[restartedMain]||Starting DemoClientL on DESKTOP-S6OKOUJ with PID 9036 (C:\mission\BOA\java\demoClientL\target\classes started by lenovo in C:\mission\BOA\java\demoClientL)
+2022-07-13 11:46:11,944|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-07-13 11:46:12,210|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-07-13 11:46:12,216|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-13 11:46:12,219|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-13 11:46:17,885|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-13 11:46:18,832|INFO |[restartedMain]||Finished Spring Data repository scanning in 892ms. Found 3 JPA repository interfaces.
+2022-07-13 11:46:24,449|INFO |[restartedMain]||Tomcat initialized with port(s): 8090 (http)
+2022-07-13 11:46:24,512|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8090"]
+2022-07-13 11:46:24,534|INFO |[restartedMain]||Starting service [Tomcat]
+2022-07-13 11:46:24,535|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-07-13 11:46:25,188|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-07-13 11:46:25,191|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 12965 ms
+2022-07-13 11:46:28,133|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-07-13 11:46:29,380|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-07-13 11:46:29,838|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-07-13 11:46:30,387|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-07-13 11:46:30,409|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-07-13 11:46:31,482|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-07-13 11:46:32,313|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-07-13 11:46:36,015|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-13 11:46:36,030|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-13 11:46:37,815|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-07-13 11:46:39,989|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-13 11:46:40,442|INFO |[restartedMain]||Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-07-13 11:46:40,684|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-13 11:46:40,927|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-13 11:46:41,045|WARN |[restartedMain]||Unable to start LiveReload server
+2022-07-13 11:46:42,766|INFO |[restartedMain]||Context refreshed
+2022-07-13 11:46:42,857|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-07-13 11:46:43,017|INFO |[restartedMain]||Scanning for api listing references
+2022-07-13 11:46:43,423|INFO |[restartedMain]||Generating unique operation named: getAccountUsingGET_1
+2022-07-13 11:46:43,835|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_1
+2022-07-13 11:46:43,849|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_2
+2022-07-13 11:46:43,999|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8090"]
+2022-07-13 11:46:44,376|INFO |[restartedMain]||Tomcat started on port(s): 8090 (http) with context path ''
+2022-07-13 11:46:44,390|INFO |[restartedMain]||Started DemoClientL in 34.472 seconds (JVM running for 37.983)
+2022-07-13 11:46:50,307|INFO |[restartedMain]||*****************info**************
+2022-07-13 11:46:52,937|INFO |[restartedMain]||*****************info**************
+2022-07-13 11:47:28,321|INFO |[http-nio-8090-exec-1]||Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-13 11:47:28,323|INFO |[http-nio-8090-exec-1]||Initializing Servlet 'dispatcherServlet'
+2022-07-13 11:47:28,382|INFO |[http-nio-8090-exec-1]||Completed initialization in 57 ms
+2022-07-13 11:54:27,123|INFO |[restartedMain]||Starting DemoClientL on DESKTOP-S6OKOUJ with PID 16072 (C:\mission\BOA\java\demoClientL\target\classes started by lenovo in C:\mission\BOA\java\demoClientL)
+2022-07-13 11:54:27,158|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-07-13 11:54:27,685|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-07-13 11:54:27,687|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-13 11:54:27,701|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-13 11:54:35,482|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-13 11:54:36,362|INFO |[restartedMain]||Finished Spring Data repository scanning in 819ms. Found 3 JPA repository interfaces.
+2022-07-13 11:54:41,408|INFO |[restartedMain]||Tomcat initialized with port(s): 8090 (http)
+2022-07-13 11:54:41,442|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8090"]
+2022-07-13 11:54:41,445|INFO |[restartedMain]||Starting service [Tomcat]
+2022-07-13 11:54:41,446|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-07-13 11:54:41,897|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-07-13 11:54:41,899|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 14196 ms
+2022-07-13 11:54:44,819|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-07-13 11:54:45,783|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-07-13 11:54:45,957|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-07-13 11:54:46,413|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-07-13 11:54:46,423|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-07-13 11:54:47,311|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-07-13 11:54:47,988|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-07-13 11:54:51,155|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-13 11:54:51,166|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-13 11:54:52,785|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-07-13 11:54:57,947|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-13 11:54:59,464|INFO |[restartedMain]||Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-07-13 11:55:00,407|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-13 11:55:01,877|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-13 11:55:02,159|WARN |[restartedMain]||Unable to start LiveReload server
+2022-07-13 11:55:05,598|INFO |[restartedMain]||Context refreshed
+2022-07-13 11:55:05,822|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-07-13 11:55:06,067|INFO |[restartedMain]||Scanning for api listing references
+2022-07-13 11:55:06,778|INFO |[restartedMain]||Generating unique operation named: getAccountUsingGET_1
+2022-07-13 11:55:07,258|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_1
+2022-07-13 11:55:07,270|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_2
+2022-07-13 11:55:07,420|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8090"]
+2022-07-13 11:55:07,779|INFO |[restartedMain]||Tomcat started on port(s): 8090 (http) with context path ''
+2022-07-13 11:55:07,813|INFO |[restartedMain]||Started DemoClientL in 43.009 seconds (JVM running for 47.237)
+2022-07-13 11:55:11,689|INFO |[http-nio-8090-exec-1]||Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-13 11:55:11,690|INFO |[http-nio-8090-exec-1]||Initializing Servlet 'dispatcherServlet'
+2022-07-13 11:55:11,930|INFO |[http-nio-8090-exec-1]||Completed initialization in 238 ms
+2022-07-13 11:55:14,729|INFO |[restartedMain]||*****************info**************
+2022-07-13 11:55:18,609|INFO |[restartedMain]||*****************info**************
+2022-07-13 12:08:25,209|INFO |[restartedMain]||Starting DemoClientL on DESKTOP-S6OKOUJ with PID 20032 (C:\mission\BOA\java\demoClientL\target\classes started by lenovo in C:\mission\BOA\java\demoClientL)
+2022-07-13 12:08:25,268|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-07-13 12:08:25,733|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-07-13 12:08:25,735|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-13 12:08:25,744|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-13 12:08:33,765|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-13 12:08:34,690|INFO |[restartedMain]||Finished Spring Data repository scanning in 846ms. Found 3 JPA repository interfaces.
+2022-07-13 12:08:39,895|INFO |[restartedMain]||Tomcat initialized with port(s): 8090 (http)
+2022-07-13 12:08:39,940|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8090"]
+2022-07-13 12:08:39,945|INFO |[restartedMain]||Starting service [Tomcat]
+2022-07-13 12:08:39,947|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-07-13 12:08:40,318|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-07-13 12:08:40,324|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 14579 ms
+2022-07-13 12:08:41,721|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-07-13 12:08:42,652|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-07-13 12:08:42,874|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-07-13 12:08:43,420|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-07-13 12:08:43,441|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-07-13 12:08:44,268|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-07-13 12:08:44,869|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-07-13 12:08:49,178|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-13 12:08:49,191|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-13 12:08:51,146|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-07-13 12:08:54,863|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-13 12:08:55,761|INFO |[restartedMain]||Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-07-13 12:08:56,248|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-13 12:08:56,677|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-13 12:08:56,840|WARN |[restartedMain]||Unable to start LiveReload server
+2022-07-13 12:08:59,571|INFO |[restartedMain]||Context refreshed
+2022-07-13 12:08:59,644|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-07-13 12:08:59,868|INFO |[restartedMain]||Scanning for api listing references
+2022-07-13 12:09:00,616|INFO |[restartedMain]||Generating unique operation named: getAccountUsingGET_1
+2022-07-13 12:09:01,256|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_1
+2022-07-13 12:09:01,263|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_2
+2022-07-13 12:09:01,395|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8090"]
+2022-07-13 12:09:01,724|INFO |[restartedMain]||Tomcat started on port(s): 8090 (http) with context path ''
+2022-07-13 12:09:01,760|INFO |[restartedMain]||Started DemoClientL in 39.252 seconds (JVM running for 42.901)
+2022-07-13 12:09:11,897|INFO |[restartedMain]||*****************info**************
+2022-07-13 12:09:14,024|INFO |[restartedMain]||*****************info**************
+2022-07-13 12:09:21,353|INFO |[http-nio-8090-exec-1]||Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-13 12:09:21,354|INFO |[http-nio-8090-exec-1]||Initializing Servlet 'dispatcherServlet'
+2022-07-13 12:09:21,419|INFO |[http-nio-8090-exec-1]||Completed initialization in 65 ms
+2022-07-13 12:14:05,115|INFO |[restartedMain]||Starting DemoClientL on DESKTOP-S6OKOUJ with PID 19760 (C:\mission\BOA\java\demoClientL\target\classes started by lenovo in C:\mission\BOA\java\demoClientL)
+2022-07-13 12:14:05,150|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-07-13 12:14:06,111|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-07-13 12:14:06,112|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-13 12:14:06,118|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-13 12:14:22,718|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-13 12:14:23,994|INFO |[restartedMain]||Finished Spring Data repository scanning in 1164ms. Found 3 JPA repository interfaces.
+2022-07-13 12:14:37,413|INFO |[restartedMain]||Tomcat initialized with port(s): 8090 (http)
+2022-07-13 12:14:37,628|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8090"]
+2022-07-13 12:14:37,633|INFO |[restartedMain]||Starting service [Tomcat]
+2022-07-13 12:14:37,642|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-07-13 12:14:38,288|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-07-13 12:14:38,289|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 32167 ms
+2022-07-13 12:14:47,155|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-07-13 12:14:50,470|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-07-13 12:14:50,903|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-07-13 12:14:51,585|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-07-13 12:14:51,600|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-07-13 12:14:52,742|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-07-13 12:14:53,543|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-07-13 12:14:59,408|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-13 12:14:59,417|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-13 12:15:06,718|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-07-13 12:15:23,525|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-13 12:15:27,560|INFO |[restartedMain]||Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-07-13 12:15:29,382|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-13 12:15:30,421|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-13 12:15:30,715|WARN |[restartedMain]||Unable to start LiveReload server
+2022-07-13 12:15:35,646|INFO |[restartedMain]||Context refreshed
+2022-07-13 12:15:36,000|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-07-13 12:15:36,424|INFO |[restartedMain]||Scanning for api listing references
+2022-07-13 12:15:37,413|INFO |[restartedMain]||Generating unique operation named: getAccountUsingGET_1
+2022-07-13 12:15:37,749|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_1
+2022-07-13 12:15:37,764|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_2
+2022-07-13 12:15:37,978|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8090"]
+2022-07-13 12:15:38,230|INFO |[restartedMain]||Tomcat started on port(s): 8090 (http) with context path ''
+2022-07-13 12:15:38,277|INFO |[restartedMain]||Started DemoClientL in 96.44 seconds (JVM running for 101.649)
+2022-07-13 12:15:57,066|INFO |[http-nio-8090-exec-3]||Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-13 12:15:57,067|INFO |[http-nio-8090-exec-3]||Initializing Servlet 'dispatcherServlet'
+2022-07-13 12:15:57,105|INFO |[http-nio-8090-exec-3]||Completed initialization in 34 ms
+2022-07-13 12:17:41,581|INFO |[restartedMain]||Starting DemoClientL on DESKTOP-S6OKOUJ with PID 18964 (C:\mission\BOA\java\demoClientL\target\classes started by lenovo in C:\mission\BOA\java\demoClientL)
+2022-07-13 12:17:41,605|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-07-13 12:17:41,989|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-07-13 12:17:41,990|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-13 12:17:41,994|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-13 12:17:49,694|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-13 12:17:50,539|INFO |[restartedMain]||Finished Spring Data repository scanning in 777ms. Found 3 JPA repository interfaces.
+2022-07-13 12:17:56,119|INFO |[restartedMain]||Tomcat initialized with port(s): 8090 (http)
+2022-07-13 12:17:56,170|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8090"]
+2022-07-13 12:17:56,180|INFO |[restartedMain]||Starting service [Tomcat]
+2022-07-13 12:17:56,183|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-07-13 12:17:56,699|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-07-13 12:17:56,702|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 14707 ms
+2022-07-13 12:17:58,942|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-07-13 12:18:00,109|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-07-13 12:18:00,431|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-07-13 12:18:00,910|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-07-13 12:18:00,924|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-07-13 12:18:01,887|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-07-13 12:18:02,701|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-07-13 12:18:05,784|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-13 12:18:05,804|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-13 12:18:07,236|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-07-13 12:18:09,638|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-13 12:18:10,249|INFO |[restartedMain]||Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-07-13 12:18:10,506|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-13 12:18:10,775|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-13 12:18:10,925|WARN |[restartedMain]||Unable to start LiveReload server
+2022-07-13 12:18:13,243|INFO |[restartedMain]||Context refreshed
+2022-07-13 12:18:13,346|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-07-13 12:18:13,544|INFO |[restartedMain]||Scanning for api listing references
+2022-07-13 12:18:14,294|INFO |[restartedMain]||Generating unique operation named: getAccountUsingGET_1
+2022-07-13 12:18:14,987|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_1
+2022-07-13 12:18:15,004|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_2
+2022-07-13 12:18:15,156|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8090"]
+2022-07-13 12:18:15,719|INFO |[restartedMain]||Tomcat started on port(s): 8090 (http) with context path ''
+2022-07-13 12:18:15,737|INFO |[restartedMain]||Started DemoClientL in 36.792 seconds (JVM running for 40.261)
+2022-07-13 12:18:15,867|INFO |[restartedMain]||*****************info**************
+2022-07-13 12:18:20,202|INFO |[http-nio-8090-exec-3]||Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-13 12:18:20,204|INFO |[http-nio-8090-exec-3]||Initializing Servlet 'dispatcherServlet'
+2022-07-13 12:18:20,469|INFO |[http-nio-8090-exec-3]||Completed initialization in 264 ms
+2022-07-13 12:19:15,430|INFO |[restartedMain]||*****************info**************
+2022-07-13 14:19:59,384|INFO |[restartedMain]||Starting DemoClientL on DESKTOP-S6OKOUJ with PID 8988 (C:\mission\BOA\java\demoClientL\target\classes started by lenovo in C:\mission\BOA\java\demoClientL)
+2022-07-13 14:19:59,412|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-07-13 14:20:00,086|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-07-13 14:20:00,087|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-13 14:20:00,116|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-13 14:20:17,390|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-13 14:20:18,698|INFO |[restartedMain]||Finished Spring Data repository scanning in 1246ms. Found 3 JPA repository interfaces.
+2022-07-13 14:20:28,296|INFO |[restartedMain]||Tomcat initialized with port(s): 8090 (http)
+2022-07-13 14:20:28,331|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8090"]
+2022-07-13 14:20:28,334|INFO |[restartedMain]||Starting service [Tomcat]
+2022-07-13 14:20:28,335|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-07-13 14:20:28,887|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-07-13 14:20:28,893|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 28775 ms
+2022-07-13 14:20:35,547|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-07-13 14:20:39,253|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-07-13 14:20:39,723|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-07-13 14:20:40,860|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-07-13 14:20:40,876|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-07-13 14:20:42,217|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-07-13 14:20:42,916|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-07-13 14:20:48,952|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-13 14:20:48,957|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-13 14:20:50,833|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-07-13 14:20:59,027|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-13 14:21:01,402|INFO |[restartedMain]||Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-07-13 14:21:01,933|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-13 14:21:04,662|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-13 14:21:05,792|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-07-13 14:21:11,392|INFO |[restartedMain]||Context refreshed
+2022-07-13 14:21:11,564|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-07-13 14:21:11,746|INFO |[restartedMain]||Scanning for api listing references
+2022-07-13 14:21:13,018|INFO |[restartedMain]||Generating unique operation named: getAccountUsingGET_1
+2022-07-13 14:21:13,678|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_1
+2022-07-13 14:21:13,696|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_2
+2022-07-13 14:21:14,007|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8090"]
+2022-07-13 14:21:14,377|INFO |[restartedMain]||Tomcat started on port(s): 8090 (http) with context path ''
+2022-07-13 14:21:14,552|INFO |[restartedMain]||Started DemoClientL in 77.228 seconds (JVM running for 80.693)
+2022-07-13 14:21:14,652|INFO |[restartedMain]||*****************info**************
+2022-07-13 14:21:39,749|INFO |[restartedMain]||*****************info**************
+2022-07-13 14:22:26,800|INFO |[http-nio-8090-exec-1]||Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-13 14:22:26,801|INFO |[http-nio-8090-exec-1]||Initializing Servlet 'dispatcherServlet'
+2022-07-13 14:22:26,887|INFO |[http-nio-8090-exec-1]||Completed initialization in 84 ms

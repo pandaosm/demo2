@@ -1,0 +1,209 @@
+2022-03-31 21:44:36,792|INFO |[restartedMain]||Starting DemoApplication on DESKTOP-S6OKOUJ with PID 5676 (C:\mission\BOA\java\demo2\target\classes started by lenovo in C:\mission\BOA\java\demo2)
+2022-03-31 21:44:36,810|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-03-31 21:44:37,084|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-03-31 21:44:37,095|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-31 21:44:37,099|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-31 21:44:40,036|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-31 21:44:40,490|INFO |[restartedMain]||Finished Spring Data repository scanning in 428ms. Found 2 JPA repository interfaces.
+2022-03-31 21:44:44,183|INFO |[restartedMain]||Tomcat initialized with port(s): 8883 (http)
+2022-03-31 21:44:44,217|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8883"]
+2022-03-31 21:44:44,218|INFO |[restartedMain]||Starting service [Tomcat]
+2022-03-31 21:44:44,219|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-03-31 21:44:44,653|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-03-31 21:44:44,653|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 7552 ms
+2022-03-31 21:44:45,643|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-03-31 21:44:45,837|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-03-31 21:44:45,841|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-03-31 21:44:46,378|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-03-31 21:44:46,786|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-03-31 21:44:47,929|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-03-31 21:44:47,968|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-03-31 21:44:50,239|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-31 21:44:50,245|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-31 21:44:51,254|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-03-31 21:44:52,608|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-03-31 21:44:52,961|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-31 21:44:53,074|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-03-31 21:44:54,640|INFO |[restartedMain]||Context refreshed
+2022-03-31 21:44:54,684|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-03-31 21:44:54,747|INFO |[restartedMain]||Scanning for api listing references
+2022-03-31 21:44:55,215|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8883"]
+2022-03-31 21:44:55,301|INFO |[restartedMain]||Tomcat started on port(s): 8883 (http) with context path ''
+2022-03-31 21:44:55,309|INFO |[restartedMain]||Started DemoApplication in 19.792 seconds (JVM running for 21.837)
+2022-03-31 21:49:46,894|INFO |[Thread-6]||Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-31 21:49:46,903|INFO |[Thread-6]||Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-31 21:49:46,914|INFO |[Thread-6]||HikariPool-1 - Shutdown initiated...
+2022-03-31 21:49:47,065|INFO |[Thread-6]||HikariPool-1 - Shutdown completed.
+2022-03-31 21:51:37,240|INFO |[main]||Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.DemoApplicationTests], using SpringBootContextLoader
+2022-03-31 21:51:37,259|INFO |[main]||Could not detect default resource locations for test class [com.example.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-03-31 21:51:37,261|INFO |[main]||Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-03-31 21:51:37,534|INFO |[main]||Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2022-03-31 21:51:37,803|INFO |[main]||Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-03-31 21:51:37,856|INFO |[main]||Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7807ac2c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@b91d8c4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4b6166aa, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@a77614d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4fd4cae3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4a067c25, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@a1217f9, org.springframework.test.context.event.EventPublishingTestExecutionListener@3bde62ff, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@523424b5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2baa8d82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@319dead1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@791cbf87, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@a7e2d9d]
+2022-03-31 21:51:39,143|INFO |[main]||Starting DemoApplicationTests on DESKTOP-S6OKOUJ with PID 7816 (started by lenovo in C:\mission\BOA\java\demo2)
+2022-03-31 21:51:39,146|INFO |[main]||No active profile set, falling back to default profiles: default
+2022-03-31 21:51:42,029|INFO |[main]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-31 21:51:43,005|INFO |[main]||Finished Spring Data repository scanning in 949ms. Found 2 JPA repository interfaces.
+2022-03-31 21:51:47,888|INFO |[main]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-03-31 21:51:48,251|INFO |[main]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-03-31 21:51:48,258|INFO |[main]||HHH000206: hibernate.properties not found
+2022-03-31 21:51:48,526|INFO |[main]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-03-31 21:51:49,835|INFO |[main]||HikariPool-1 - Starting...
+2022-03-31 21:51:50,819|INFO |[main]||HikariPool-1 - Start completed.
+2022-03-31 21:51:50,863|INFO |[main]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-03-31 21:51:52,529|INFO |[main]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-31 21:51:52,535|INFO |[main]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-31 21:51:54,053|INFO |[main]||HHH000397: Using ASTQueryTranslatorFactory
+2022-03-31 21:51:56,776|INFO |[main]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-03-31 21:51:58,521|INFO |[main]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-31 21:52:01,503|INFO |[main]||Context refreshed
+2022-03-31 21:52:01,554|INFO |[main]||Found 1 custom documentation plugin(s)
+2022-03-31 21:52:01,666|INFO |[main]||Scanning for api listing references
+2022-03-31 21:52:02,267|INFO |[main]||Started DemoApplicationTests in 24.274 seconds (JVM running for 28.853)
+2022-03-31 21:52:04,556|WARN |[main]||SQL Error: 904, SQLState: 42000
+2022-03-31 21:52:04,557|ERROR|[main]||ORA-00904: "ACCOUNT0_"."SUM_MVTA": invalid identifier
+
+2022-03-31 21:52:04,715|INFO |[SpringContextShutdownHook]||Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-31 21:52:04,724|INFO |[SpringContextShutdownHook]||Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-31 21:52:04,740|INFO |[SpringContextShutdownHook]||HikariPool-1 - Shutdown initiated...
+2022-03-31 21:52:04,951|INFO |[SpringContextShutdownHook]||HikariPool-1 - Shutdown completed.
+2022-03-31 22:00:25,968|INFO |[restartedMain]||Starting DemoApplication on DESKTOP-S6OKOUJ with PID 1264 (C:\mission\BOA\java\demo2\target\classes started by lenovo in C:\mission\BOA\java\demo2)
+2022-03-31 22:00:25,982|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-03-31 22:00:26,135|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-03-31 22:00:26,209|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-31 22:00:26,214|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-31 22:00:28,756|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-31 22:00:29,202|INFO |[restartedMain]||Finished Spring Data repository scanning in 420ms. Found 2 JPA repository interfaces.
+2022-03-31 22:00:34,353|INFO |[restartedMain]||Tomcat initialized with port(s): 8883 (http)
+2022-03-31 22:00:34,382|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8883"]
+2022-03-31 22:00:34,383|INFO |[restartedMain]||Starting service [Tomcat]
+2022-03-31 22:00:34,384|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-03-31 22:00:34,819|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-03-31 22:00:34,820|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 8601 ms
+2022-03-31 22:00:36,105|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-03-31 22:00:36,371|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-03-31 22:00:36,433|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-03-31 22:00:37,222|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-03-31 22:00:37,985|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-03-31 22:00:39,054|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-03-31 22:00:39,141|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-03-31 22:00:41,525|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-31 22:00:41,530|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-31 22:00:42,780|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-03-31 22:00:44,029|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-03-31 22:00:44,424|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-31 22:00:44,518|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-03-31 22:00:45,730|INFO |[restartedMain]||Context refreshed
+2022-03-31 22:00:45,768|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-03-31 22:00:45,838|INFO |[restartedMain]||Scanning for api listing references
+2022-03-31 22:00:46,243|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8883"]
+2022-03-31 22:00:46,298|INFO |[restartedMain]||Tomcat started on port(s): 8883 (http) with context path ''
+2022-03-31 22:00:46,309|INFO |[restartedMain]||Started DemoApplication in 21.722 seconds (JVM running for 23.615)
+2022-03-31 22:11:14,505|INFO |[Thread-6]||Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-31 22:11:14,513|INFO |[Thread-6]||Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-31 22:11:14,535|INFO |[Thread-6]||HikariPool-1 - Shutdown initiated...
+2022-03-31 22:11:14,914|INFO |[Thread-6]||HikariPool-1 - Shutdown completed.
+2022-03-31 22:11:16,508|INFO |[restartedMain]||Starting DemoApplication on DESKTOP-S6OKOUJ with PID 1264 (C:\mission\BOA\java\demo2\target\classes started by lenovo in C:\mission\BOA\java\demo2)
+2022-03-31 22:11:16,509|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-03-31 22:11:17,911|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-31 22:11:17,920|INFO |[restartedMain]||Finished Spring Data repository scanning in 8ms. Found 0 JPA repository interfaces.
+2022-03-31 22:11:18,301|INFO |[restartedMain]||Tomcat initialized with port(s): 8883 (http)
+2022-03-31 22:11:18,302|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8883"]
+2022-03-31 22:11:18,303|INFO |[restartedMain]||Starting service [Tomcat]
+2022-03-31 22:11:18,304|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-03-31 22:11:18,400|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-03-31 22:11:18,404|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 1854 ms
+2022-03-31 22:11:18,610|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-03-31 22:11:18,632|INFO |[restartedMain]||HikariPool-2 - Starting...
+2022-03-31 22:11:18,741|INFO |[restartedMain]||HikariPool-2 - Start completed.
+2022-03-31 22:11:18,742|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-03-31 22:11:19,274|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-31 22:11:19,275|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-31 22:11:19,282|WARN |[restartedMain]||Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoApplication': Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.demo.DemoApplication] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@5c29bfd]
+2022-03-31 22:11:19,284|INFO |[restartedMain]||Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-31 22:11:19,285|INFO |[restartedMain]||HikariPool-2 - Shutdown initiated...
+2022-03-31 22:11:19,515|INFO |[restartedMain]||HikariPool-2 - Shutdown completed.
+2022-03-31 22:11:19,524|INFO |[restartedMain]||Stopping service [Tomcat]
+2022-03-31 22:11:19,539|INFO |[restartedMain]||
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-03-31 22:11:19,551|ERROR|[restartedMain]||Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoApplication': Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.demo.DemoApplication] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@5c29bfd]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.demo.DemoApplication] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@5c29bfd]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:734)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:666)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.buildPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:428)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:409)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(PersistenceAnnotationBeanPostProcessor.java:336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1094)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/example/demo/dao/IClient;
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3061)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2248)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:729)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.example.demo.dao.IClient
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 30 common frames omitted
+2022-03-31 22:11:23,339|INFO |[restartedMain]||Starting DemoApplication on DESKTOP-S6OKOUJ with PID 1264 (C:\mission\BOA\java\demo2\target\classes started by lenovo in C:\mission\BOA\java\demo2)
+2022-03-31 22:11:23,344|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-03-31 22:11:25,514|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-31 22:11:25,577|INFO |[restartedMain]||Finished Spring Data repository scanning in 57ms. Found 2 JPA repository interfaces.
+2022-03-31 22:11:26,039|INFO |[restartedMain]||Tomcat initialized with port(s): 8883 (http)
+2022-03-31 22:11:26,046|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8883"]
+2022-03-31 22:11:26,047|INFO |[restartedMain]||Starting service [Tomcat]
+2022-03-31 22:11:26,047|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-03-31 22:11:26,118|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-03-31 22:11:26,118|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 2756 ms
+2022-03-31 22:11:26,409|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-03-31 22:11:26,436|INFO |[restartedMain]||HikariPool-3 - Starting...
+2022-03-31 22:11:26,704|INFO |[restartedMain]||HikariPool-3 - Start completed.
+2022-03-31 22:11:26,706|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-03-31 22:11:27,479|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-31 22:11:27,480|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-31 22:11:28,196|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-03-31 22:11:28,937|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-03-31 22:11:29,122|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-31 22:11:29,135|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-03-31 22:11:30,598|INFO |[restartedMain]||Context refreshed
+2022-03-31 22:11:30,603|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-03-31 22:11:30,739|INFO |[restartedMain]||Scanning for api listing references
+2022-03-31 22:11:30,989|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8883"]
+2022-03-31 22:11:30,997|INFO |[restartedMain]||Tomcat started on port(s): 8883 (http) with context path ''
+2022-03-31 22:11:31,002|INFO |[restartedMain]||Started DemoApplication in 7.779 seconds (JVM running for 668.308)
+2022-03-31 22:11:31,229|INFO |[restartedMain]||Condition evaluation unchanged

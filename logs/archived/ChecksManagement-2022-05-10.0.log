@@ -1,0 +1,38 @@
+2022-05-10 11:15:51,960|INFO |[restartedMain]||Starting DemoApplication on DESKTOP-S6OKOUJ with PID 11040 (C:\mission\BOA\java\demo2\target\classes started by lenovo in C:\mission\BOA\java\demo2)
+2022-05-10 11:15:51,977|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-05-10 11:15:52,378|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-05-10 11:15:52,380|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-10 11:15:52,382|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-10 11:15:56,249|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-10 11:15:57,045|INFO |[restartedMain]||Finished Spring Data repository scanning in 752ms. Found 2 JPA repository interfaces.
+2022-05-10 11:16:01,530|INFO |[restartedMain]||Tomcat initialized with port(s): 8883 (http)
+2022-05-10 11:16:01,570|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8883"]
+2022-05-10 11:16:01,571|INFO |[restartedMain]||Starting service [Tomcat]
+2022-05-10 11:16:01,572|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-05-10 11:16:01,989|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-05-10 11:16:01,991|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 9606 ms
+2022-05-10 11:16:03,103|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-05-10 11:16:03,421|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-05-10 11:16:03,428|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-05-10 11:16:04,079|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-05-10 11:16:04,528|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-05-10 11:16:07,714|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-05-10 11:16:07,790|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-05-10 11:16:20,191|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 11:16:20,197|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 11:16:21,725|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-05-10 11:16:24,353|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-05-10 11:16:25,990|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 11:16:26,434|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-05-10 11:16:29,028|INFO |[restartedMain]||Context refreshed
+2022-05-10 11:16:29,193|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-05-10 11:16:29,304|INFO |[restartedMain]||Scanning for api listing references
+2022-05-10 11:16:30,584|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8883"]
+2022-05-10 11:16:30,800|INFO |[restartedMain]||Tomcat started on port(s): 8883 (http) with context path ''
+2022-05-10 11:16:30,858|INFO |[restartedMain]||Started DemoApplication in 40.618 seconds (JVM running for 43.12)
+2022-05-10 11:16:30,881|INFO |[restartedMain]||*****************info**************
+2022-05-10 11:19:44,907|INFO |[http-nio-8883-exec-1]||Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-10 11:19:44,908|INFO |[http-nio-8883-exec-1]||Initializing Servlet 'dispatcherServlet'
+2022-05-10 11:19:44,943|INFO |[http-nio-8883-exec-1]||Completed initialization in 33 ms

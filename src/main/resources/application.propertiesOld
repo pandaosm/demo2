@@ -1,0 +1,33 @@
+spring.application.name= application_ClientL
+server.port=8090
+#spring.jpa.show-sql=true
+#spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.hibernate.ddl-auto=update
+#----------source database----------
+# BOA
+#hibernate.hbm2ddl.auto = none
+#spring.jpa.database-platform=org.hibernate.dialect.Oracle10gDialect
+spring.datasource.url=jdbc:oracle:thin:@//localhost:1521/XE
+spring.datasource.username=system
+spring.datasource.password=oracle
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+spring.jpa.database-platform=org.hibernate.dialect.Oracle10gDialect
+
+
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka
+
+## spring.zipkin.baseUrl= http://localhost:9411
+#source.database.username=/hpAWwYKJPw=
+#source.database.password=/hpAWwYKJPw=
+
+#eureka server url
+#eureka.client.serviceUrl.defaultZone=http://localhost:8761
+#eureka.client.register-with-eureka=true
+#eureka.client.fetch-registry=true
+#eureka.instance.preferIpAddress=true
+#eureka.instance.lease-expiration-duration-in-seconds=1
+#eureka.instance.lease-renewal-interval-in-seconds=2
+spring.jackson.serialization.FAIL_ON_EMPTY_BEANS=false
+
+logging.file=F:/elk/spring-boot-elk.log
+

@@ -1,9 +1,26 @@
 image: maven:latest
 #
-build:
+stages: 
+         -build
+         -test
+         
+build-code-job:
   stage: build
   script:
-   - mvn install:install-file -Dfile=ojdbc7.jar -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=11.2.0.4.0 -Dpackaging=jar compile
+   - mvn install:install-file -Dfile=ojdbc7.jar -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=11.2.0.4.0 -Dpackaging=jar compile package install
+   - echo "bonjour le programme est bien compile"
+
+
+build-code-job:
+  stage: test
+  script:
+    - echo "Check the ruby version, then build some Ruby project files:"
+    - mvn package install 
+    
+    
+    
+   
+   
 
   
   

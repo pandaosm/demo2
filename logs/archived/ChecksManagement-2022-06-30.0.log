@@ -1,0 +1,613 @@
+2022-06-30 10:21:25,540|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-06-30 10:21:25,554|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-30 10:21:27,944|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-06-30 10:21:31,988|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 10:21:32,624|INFO |[restartedMain]||Finished Spring Data repository scanning in 608ms. Found 2 JPA repository interfaces.
+2022-06-30 10:21:33,523|INFO |[restartedMain]||BeanFactory id=ba2ed0e4-bfee-303a-b9bc-36f2fb2cb8a9
+2022-06-30 10:21:36,345|INFO |[restartedMain]||Tomcat initialized with port(s): 8090 (http)
+2022-06-30 10:21:36,382|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8090"]
+2022-06-30 10:21:36,383|INFO |[restartedMain]||Starting service [Tomcat]
+2022-06-30 10:21:36,385|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-06-30 10:21:36,768|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-06-30 10:21:36,768|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 8756 ms
+2022-06-30 10:21:37,291|WARN |[restartedMain]||No URLs will be polled as dynamic configuration sources.
+2022-06-30 10:21:37,294|INFO |[restartedMain]||To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-30 10:21:37,332|INFO |[restartedMain]||DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1e84cfdb
+2022-06-30 10:21:39,221|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-06-30 10:21:40,099|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-06-30 10:21:40,378|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-06-30 10:21:40,859|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-06-30 10:21:40,867|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-06-30 10:21:41,591|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-06-30 10:21:42,171|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-06-30 10:21:44,984|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 10:21:44,992|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 10:21:46,083|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-06-30 10:21:47,930|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 10:21:48,823|INFO |[restartedMain]||Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-06-30 10:21:49,187|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-30 10:21:49,245|WARN |[restartedMain]||No URLs will be polled as dynamic configuration sources.
+2022-06-30 10:21:49,247|INFO |[restartedMain]||To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-30 10:21:49,506|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-30 10:21:49,620|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-06-30 10:21:52,461|INFO |[restartedMain]||Cannot determine local hostname
+2022-06-30 10:21:52,638|INFO |[restartedMain]||Context refreshed
+2022-06-30 10:21:52,689|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-06-30 10:21:52,782|INFO |[restartedMain]||Scanning for api listing references
+2022-06-30 10:21:53,255|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_1
+2022-06-30 10:21:53,263|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_2
+2022-06-30 10:21:53,346|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8090"]
+2022-06-30 10:21:53,733|INFO |[restartedMain]||Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-30 10:21:55,238|INFO |[restartedMain]||Cannot determine local hostname
+2022-06-30 10:21:56,649|INFO |[restartedMain]||Cannot determine local hostname
+2022-06-30 10:21:56,657|INFO |[restartedMain]||Started DemoClientL in 34.104 seconds (JVM running for 36.78)
+2022-06-30 10:21:56,692|INFO |[restartedMain]||*****************info**************
+2022-06-30 10:21:56,984|WARN |[restartedMain]||SQL Error: 904, SQLState: 42000
+2022-06-30 10:21:56,985|ERROR|[restartedMain]||ORA-00904: "CLIENT0_"."CODE_RACINE": invalid identifier
+
+2022-06-30 10:21:56,993|INFO |[restartedMain]||HHH000327: Error performing load command : org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:69)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2173)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1936)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1898)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:937)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:340)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:310)
+	at org.hibernate.loader.Loader.loadEntity(Loader.java:2287)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:64)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:54)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4342)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:482)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:452)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:203)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:262)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:105)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:73)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1260)
+	at org.hibernate.internal.SessionImpl.access$2000(SessionImpl.java:210)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2896)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2877)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2833)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2877)
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1101)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:271)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:151)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:65)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:904)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:890)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:314)
+	at jdk.proxy3/jdk.proxy3.$Proxy140.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:557)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:371)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:204)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:657)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:621)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:605)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy3/jdk.proxy3.$Proxy149.save(Unknown Source)
+	at com.example.demo.DemoClientL.run(DemoClientL.java:50)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:768)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoClientL.main(DemoClientL.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00904: "CLIENT0_"."CODE_RACINE": invalid identifier
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:776)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:897)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1034)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3867)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1502)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:60)
+	... 71 common frames omitted
+2022-06-30 10:21:57,014|INFO |[restartedMain]||
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-30 10:21:57,133|INFO |[restartedMain]||Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-30 10:21:57,146|INFO |[restartedMain]||Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 10:21:57,208|INFO |[restartedMain]||HikariPool-1 - Shutdown initiated...
+2022-06-30 10:21:57,341|INFO |[restartedMain]||HikariPool-1 - Shutdown completed.
+2022-06-30 10:21:57,446|ERROR|[restartedMain]||Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:768)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoClientL.main(DemoClientL.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:281)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:255)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:528)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:153)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy3/jdk.proxy3.$Proxy149.save(Unknown Source)
+	at com.example.demo.DemoClientL.run(DemoClientL.java:50)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	... 10 common frames omitted
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:69)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2173)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1936)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1898)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:937)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:340)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:310)
+	at org.hibernate.loader.Loader.loadEntity(Loader.java:2287)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:64)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:54)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4342)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:482)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:452)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:203)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:262)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:105)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:73)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1260)
+	at org.hibernate.internal.SessionImpl.access$2000(SessionImpl.java:210)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2896)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2877)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2833)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2877)
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1101)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:271)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:151)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:65)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:904)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:890)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:314)
+	at jdk.proxy3/jdk.proxy3.$Proxy140.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:557)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:371)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:204)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:657)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:621)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:605)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	... 19 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00904: "CLIENT0_"."CODE_RACINE": invalid identifier
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:776)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:897)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1034)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3867)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1502)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:60)
+	... 71 common frames omitted
+2022-06-30 10:23:51,152|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-06-30 10:23:51,161|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-30 10:23:53,509|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-06-30 10:23:57,776|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 10:23:58,280|INFO |[restartedMain]||Finished Spring Data repository scanning in 478ms. Found 2 JPA repository interfaces.
+2022-06-30 10:23:59,181|INFO |[restartedMain]||BeanFactory id=ba2ed0e4-bfee-303a-b9bc-36f2fb2cb8a9
+2022-06-30 10:24:01,764|INFO |[restartedMain]||Tomcat initialized with port(s): 8090 (http)
+2022-06-30 10:24:01,795|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8090"]
+2022-06-30 10:24:01,797|INFO |[restartedMain]||Starting service [Tomcat]
+2022-06-30 10:24:01,798|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-06-30 10:24:02,409|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-06-30 10:24:02,412|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 8714 ms
+2022-06-30 10:24:02,810|WARN |[restartedMain]||No URLs will be polled as dynamic configuration sources.
+2022-06-30 10:24:02,812|INFO |[restartedMain]||To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-30 10:24:02,845|INFO |[restartedMain]||DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@65a4ed84
+2022-06-30 10:24:04,574|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-06-30 10:24:05,359|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-06-30 10:24:05,555|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-06-30 10:24:05,922|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-06-30 10:24:05,931|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-06-30 10:24:06,729|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-06-30 10:24:07,209|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-06-30 10:24:09,872|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 10:24:09,879|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 10:24:10,931|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-06-30 10:24:12,795|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 10:24:13,284|INFO |[restartedMain]||Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-06-30 10:24:13,556|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-30 10:24:13,608|WARN |[restartedMain]||No URLs will be polled as dynamic configuration sources.
+2022-06-30 10:24:13,609|INFO |[restartedMain]||To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-30 10:24:13,859|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-30 10:24:13,978|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-06-30 10:24:16,898|INFO |[restartedMain]||Cannot determine local hostname
+2022-06-30 10:24:17,074|INFO |[restartedMain]||Context refreshed
+2022-06-30 10:24:17,122|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-06-30 10:24:17,273|INFO |[restartedMain]||Scanning for api listing references
+2022-06-30 10:24:17,745|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_1
+2022-06-30 10:24:17,754|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_2
+2022-06-30 10:24:17,952|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8090"]
+2022-06-30 10:24:18,154|INFO |[restartedMain]||Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-30 10:24:19,610|INFO |[restartedMain]||Cannot determine local hostname
+2022-06-30 10:24:21,176|INFO |[restartedMain]||Cannot determine local hostname
+2022-06-30 10:24:21,205|INFO |[restartedMain]||Started DemoClientL in 32.962 seconds (JVM running for 35.466)
+2022-06-30 10:24:21,310|INFO |[restartedMain]||*****************info**************
+2022-06-30 10:24:21,764|WARN |[restartedMain]||SQL Error: 1400, SQLState: 23000
+2022-06-30 10:24:21,765|ERROR|[restartedMain]||ORA-01400: cannot insert NULL into ("SYSTEM"."CLIENT_T"."ID")
+
+2022-06-30 10:24:21,770|ERROR|[restartedMain]||HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2022-06-30 10:24:21,793|INFO |[restartedMain]||
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-30 10:24:21,849|INFO |[restartedMain]||Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-30 10:24:21,866|INFO |[restartedMain]||Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 10:24:21,889|INFO |[restartedMain]||HikariPool-1 - Shutdown initiated...
+2022-06-30 10:24:21,982|INFO |[restartedMain]||HikariPool-1 - Shutdown completed.
+2022-06-30 10:24:22,112|ERROR|[restartedMain]||Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:768)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoClientL.main(DemoClientL.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:298)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:255)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:538)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:631)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:385)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy3/jdk.proxy3.$Proxy149.save(Unknown Source)
+	at com.example.demo.DemoClientL.run(DemoClientL.java:50)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	... 10 common frames omitted
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:59)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:178)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3185)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3699)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:90)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:478)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:356)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1457)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:514)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3321)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2492)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:473)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:178)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:39)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:271)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:104)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:534)
+	... 26 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: ORA-01400: cannot insert NULL into ("SYSTEM"."CLIENT_T"."ID")
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:943)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:175)
+	... 43 common frames omitted
+2022-06-30 10:26:38,750|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-06-30 10:26:38,762|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-30 10:26:41,624|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-06-30 10:26:47,660|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 10:26:48,894|INFO |[restartedMain]||Finished Spring Data repository scanning in 1189ms. Found 2 JPA repository interfaces.
+2022-06-30 10:26:50,154|INFO |[restartedMain]||BeanFactory id=ba2ed0e4-bfee-303a-b9bc-36f2fb2cb8a9
+2022-06-30 10:26:54,541|INFO |[restartedMain]||Tomcat initialized with port(s): 8090 (http)
+2022-06-30 10:26:54,575|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8090"]
+2022-06-30 10:26:54,577|INFO |[restartedMain]||Starting service [Tomcat]
+2022-06-30 10:26:54,578|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-06-30 10:26:55,009|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-06-30 10:26:55,010|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 13298 ms
+2022-06-30 10:26:56,241|WARN |[restartedMain]||No URLs will be polled as dynamic configuration sources.
+2022-06-30 10:26:56,243|INFO |[restartedMain]||To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-30 10:26:56,325|INFO |[restartedMain]||DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2a27c85a
+2022-06-30 10:26:58,490|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-06-30 10:26:59,415|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-06-30 10:26:59,611|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-06-30 10:27:00,015|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-06-30 10:27:00,024|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-06-30 10:27:00,879|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-06-30 10:27:01,825|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-06-30 10:27:05,359|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 10:27:05,368|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 10:27:10,249|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-06-30 10:27:21,269|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-06-30 10:27:21,278|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-30 10:27:23,837|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-06-30 10:27:27,866|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 10:27:28,483|INFO |[restartedMain]||Finished Spring Data repository scanning in 575ms. Found 2 JPA repository interfaces.
+2022-06-30 10:27:29,432|INFO |[restartedMain]||BeanFactory id=ba2ed0e4-bfee-303a-b9bc-36f2fb2cb8a9
+2022-06-30 10:27:32,034|INFO |[restartedMain]||Tomcat initialized with port(s): 8090 (http)
+2022-06-30 10:27:32,064|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8090"]
+2022-06-30 10:27:32,066|INFO |[restartedMain]||Starting service [Tomcat]
+2022-06-30 10:27:32,066|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-06-30 10:27:32,391|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-06-30 10:27:32,396|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 8494 ms
+2022-06-30 10:27:32,925|WARN |[restartedMain]||No URLs will be polled as dynamic configuration sources.
+2022-06-30 10:27:32,926|INFO |[restartedMain]||To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-30 10:27:32,964|INFO |[restartedMain]||DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6dd5f2d4
+2022-06-30 10:27:34,771|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-06-30 10:27:35,550|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-06-30 10:27:35,706|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-06-30 10:27:36,015|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-06-30 10:27:36,026|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-06-30 10:27:36,753|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-06-30 10:27:37,199|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-06-30 10:27:39,789|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 10:27:39,794|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 10:27:40,953|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-06-30 10:27:42,856|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 10:27:43,312|INFO |[restartedMain]||Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-06-30 10:27:43,580|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-30 10:27:43,637|WARN |[restartedMain]||No URLs will be polled as dynamic configuration sources.
+2022-06-30 10:27:43,638|INFO |[restartedMain]||To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-30 10:27:43,873|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-30 10:27:44,065|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-06-30 10:27:46,937|INFO |[restartedMain]||Cannot determine local hostname
+2022-06-30 10:27:47,109|INFO |[restartedMain]||Context refreshed
+2022-06-30 10:27:47,168|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-06-30 10:27:47,254|INFO |[restartedMain]||Scanning for api listing references
+2022-06-30 10:27:47,866|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_1
+2022-06-30 10:27:47,874|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_2
+2022-06-30 10:27:47,960|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8090"]
+2022-06-30 10:27:48,174|INFO |[restartedMain]||Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-30 10:27:49,627|INFO |[restartedMain]||Cannot determine local hostname
+2022-06-30 10:27:51,031|INFO |[restartedMain]||Cannot determine local hostname
+2022-06-30 10:27:51,044|INFO |[restartedMain]||Started DemoClientL in 33.076 seconds (JVM running for 35.829)
+2022-06-30 10:27:51,088|INFO |[restartedMain]||*****************info**************
+2022-06-30 10:28:19,699|INFO |[http-nio-8090-exec-1]||Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30 10:28:19,701|INFO |[http-nio-8090-exec-1]||Initializing Servlet 'dispatcherServlet'
+2022-06-30 10:28:19,780|INFO |[http-nio-8090-exec-1]||Completed initialization in 78 ms
+2022-06-30 10:28:19,953|INFO |[http-nio-8090-exec-1]||Incoming request at client origin for request /origin 
+2022-06-30 11:45:56,589|INFO |[http-nio-8090-exec-3]||Incoming request at client origin for request /origin 
+2022-06-30 11:52:53,802|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-06-30 11:52:53,811|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-30 11:52:56,137|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-06-30 11:53:00,554|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 11:53:01,107|INFO |[restartedMain]||Finished Spring Data repository scanning in 521ms. Found 2 JPA repository interfaces.
+2022-06-30 11:53:02,068|INFO |[restartedMain]||BeanFactory id=ba2ed0e4-bfee-303a-b9bc-36f2fb2cb8a9
+2022-06-30 11:53:05,498|INFO |[restartedMain]||Tomcat initialized with port(s): 8090 (http)
+2022-06-30 11:53:05,540|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8090"]
+2022-06-30 11:53:05,542|INFO |[restartedMain]||Starting service [Tomcat]
+2022-06-30 11:53:05,542|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-06-30 11:53:06,016|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-06-30 11:53:06,017|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 9765 ms
+2022-06-30 11:53:06,430|WARN |[restartedMain]||No URLs will be polled as dynamic configuration sources.
+2022-06-30 11:53:06,432|INFO |[restartedMain]||To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-30 11:53:06,471|INFO |[restartedMain]||DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@697ec9e4
+2022-06-30 11:53:08,439|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-06-30 11:53:09,444|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-06-30 11:53:09,683|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-06-30 11:53:10,079|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-06-30 11:53:10,087|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-06-30 11:53:10,966|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-06-30 11:53:11,631|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-06-30 11:53:14,751|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 11:53:14,760|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 11:53:16,127|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-06-30 11:53:18,235|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 11:53:18,756|INFO |[restartedMain]||Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-06-30 11:53:19,040|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-30 11:53:19,094|WARN |[restartedMain]||No URLs will be polled as dynamic configuration sources.
+2022-06-30 11:53:19,095|INFO |[restartedMain]||To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-30 11:53:19,358|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-30 11:53:19,477|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-06-30 11:53:22,403|INFO |[restartedMain]||Cannot determine local hostname
+2022-06-30 11:53:22,747|INFO |[restartedMain]||Context refreshed
+2022-06-30 11:53:22,817|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-06-30 11:53:22,939|INFO |[restartedMain]||Scanning for api listing references
+2022-06-30 11:53:23,558|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_1
+2022-06-30 11:53:23,567|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_2
+2022-06-30 11:53:23,648|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8090"]
+2022-06-30 11:53:23,965|INFO |[restartedMain]||Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-30 11:53:25,593|INFO |[restartedMain]||Cannot determine local hostname
+2022-06-30 11:53:27,107|INFO |[restartedMain]||Cannot determine local hostname
+2022-06-30 11:53:27,115|INFO |[restartedMain]||Started DemoClientL in 36.566 seconds (JVM running for 39.902)
+2022-06-30 11:53:27,161|INFO |[restartedMain]||*****************info**************
+2022-06-30 11:53:41,176|INFO |[http-nio-8090-exec-2]||Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30 11:53:41,177|INFO |[http-nio-8090-exec-2]||Initializing Servlet 'dispatcherServlet'
+2022-06-30 11:53:41,275|INFO |[http-nio-8090-exec-2]||Completed initialization in 95 ms
+2022-06-30 11:53:41,724|INFO |[http-nio-8090-exec-2]||Incoming request at client origin for request /origin 
+2022-06-30 13:45:52,046|WARN |[HikariPool-1 housekeeper]||HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h15m10s815ms556µs200ns).
+2022-06-30 14:06:42,386|WARN |[HikariPool-1 housekeeper]||HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m56s486ms132µs900ns).
+2022-06-30 14:10:30,453|INFO |[http-nio-8090-exec-5]||Incoming request at client origin for request /origin 
+2022-06-30 14:10:32,432|INFO |[http-nio-8090-exec-4]||Incoming request at client origin for request /origin 
+2022-06-30 14:40:17,481|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-06-30 14:40:17,493|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-30 14:40:18,936|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-06-30 14:40:23,580|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 14:40:24,127|INFO |[restartedMain]||Finished Spring Data repository scanning in 522ms. Found 2 JPA repository interfaces.
+2022-06-30 14:40:25,433|INFO |[restartedMain]||BeanFactory id=ba2ed0e4-bfee-303a-b9bc-36f2fb2cb8a9
+2022-06-30 14:40:28,616|INFO |[restartedMain]||Tomcat initialized with port(s): 8090 (http)
+2022-06-30 14:40:28,652|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8090"]
+2022-06-30 14:40:28,654|INFO |[restartedMain]||Starting service [Tomcat]
+2022-06-30 14:40:28,654|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-06-30 14:40:29,025|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-06-30 14:40:29,029|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 10028 ms
+2022-06-30 14:40:29,559|WARN |[restartedMain]||No URLs will be polled as dynamic configuration sources.
+2022-06-30 14:40:29,575|INFO |[restartedMain]||To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-30 14:40:29,618|INFO |[restartedMain]||DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@34686edc
+2022-06-30 14:40:31,211|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-06-30 14:40:32,312|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-06-30 14:40:32,553|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-06-30 14:40:32,905|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-06-30 14:40:32,919|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-06-30 14:40:33,616|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-06-30 14:40:34,186|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-06-30 14:40:36,868|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 14:40:36,881|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 14:40:37,986|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-06-30 14:40:39,884|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 14:40:40,363|INFO |[restartedMain]||Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-06-30 14:40:40,614|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-30 14:40:40,673|WARN |[restartedMain]||No URLs will be polled as dynamic configuration sources.
+2022-06-30 14:40:40,678|INFO |[restartedMain]||To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-30 14:40:41,276|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-30 14:40:41,456|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-06-30 14:40:44,482|INFO |[restartedMain]||Context refreshed
+2022-06-30 14:40:44,532|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-06-30 14:40:44,626|INFO |[restartedMain]||Scanning for api listing references
+2022-06-30 14:40:45,271|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_1
+2022-06-30 14:40:45,284|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_2
+2022-06-30 14:40:45,367|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8090"]
+2022-06-30 14:40:45,799|INFO |[restartedMain]||Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-30 14:40:46,478|INFO |[restartedMain]||Started DemoClientL in 31.74 seconds (JVM running for 36.483)
+2022-06-30 14:40:46,502|INFO |[restartedMain]||*****************info**************
+2022-06-30 14:40:58,896|INFO |[http-nio-8090-exec-1]||Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30 14:40:58,897|INFO |[http-nio-8090-exec-1]||Initializing Servlet 'dispatcherServlet'
+2022-06-30 14:40:58,972|INFO |[http-nio-8090-exec-1]||Completed initialization in 74 ms
+2022-06-30 14:44:50,809|INFO |[http-nio-8090-exec-9]||Incoming request at client origin for request /origin 
+2022-06-30 14:44:57,299|INFO |[http-nio-8090-exec-1]||Incoming request at client origin for request /origin 
+2022-06-30 14:52:15,460|INFO |[http-nio-8090-exec-3]||Incoming request at client origin for request /origin 
+2022-06-30 15:43:13,601|INFO |[http-nio-8090-exec-5]||Incoming request at client origin for request /origin 
+2022-06-30 15:43:15,784|INFO |[http-nio-8090-exec-6]||Incoming request at client origin for request /origin 
+2022-06-30 15:43:24,715|INFO |[http-nio-8090-exec-8]||Incoming request at client origin for request /origin 
+2022-06-30 15:44:50,332|INFO |[http-nio-8090-exec-10]||Incoming request at client origin for request /origin 
+2022-06-30 15:46:35,864|INFO |[http-nio-8090-exec-2]||Incoming request at client origin for request /origin 
+2022-06-30 15:49:46,992|INFO |[http-nio-8090-exec-4]||Incoming request at client origin for request /origin 
+2022-06-30 15:50:56,609|INFO |[http-nio-8090-exec-6]||Incoming request at client origin for request /origin 
+2022-06-30 15:51:16,274|INFO |[http-nio-8090-exec-8]||Incoming request at client origin for request /origin 
+2022-06-30 15:52:08,914|INFO |[http-nio-8090-exec-10]||Incoming request at client origin for request /origin 
+2022-06-30 15:52:12,472|INFO |[http-nio-8090-exec-2]||Incoming request at client origin for request /origin 
+2022-06-30 15:55:06,044|INFO |[http-nio-8090-exec-4]||Incoming request at client origin for request /origin 
+2022-06-30 15:59:48,645|INFO |[http-nio-8090-exec-6]||Incoming request at client origin for request /origin 
+2022-06-30 16:05:46,332|INFO |[http-nio-8090-exec-8]||Incoming request at client origin for request /origin 
+2022-06-30 16:09:22,935|INFO |[http-nio-8090-exec-10]||Incoming request at client origin for request /origin 
+2022-06-30 16:10:23,448|INFO |[http-nio-8090-exec-2]||Incoming request at client origin for request /origin 
+2022-06-30 16:10:51,267|INFO |[http-nio-8090-exec-4]||Incoming request at client origin for request /origin 
+2022-06-30 16:13:52,267|INFO |[http-nio-8090-exec-6]||Incoming request at client origin for request /origin 
+2022-06-30 16:14:07,999|INFO |[http-nio-8090-exec-8]||Incoming request at client origin for request /origin 
+2022-06-30 16:19:05,827|INFO |[http-nio-8090-exec-10]||Incoming request at client origin for request /origin 
+2022-06-30 16:25:47,677|INFO |[http-nio-8090-exec-2]||Incoming request at client origin for request /origin 
+2022-06-30 16:26:40,513|INFO |[http-nio-8090-exec-3]||Incoming request at client origin for request /origin 
+2022-06-30 16:28:13,664|INFO |[http-nio-8090-exec-5]||Incoming request at client origin for request /origin 
+2022-06-30 16:28:51,240|INFO |[http-nio-8090-exec-6]||Incoming request at client origin for request /origin 
+2022-06-30 16:28:56,926|INFO |[http-nio-8090-exec-7]||Incoming request at client origin for request /origin 
+2022-06-30 16:29:56,978|INFO |[http-nio-8090-exec-8]||Incoming request at client origin for request /origin 
+2022-06-30 16:40:54,843|INFO |[http-nio-8090-exec-10]||Incoming request at client origin for request /origin 
+2022-06-30 16:41:15,189|INFO |[http-nio-8090-exec-1]||Incoming request at client origin for request /origin 
+2022-06-30 16:46:01,027|INFO |[http-nio-8090-exec-3]||Incoming request at client origin for request /origin 
+2022-06-30 16:49:43,461|INFO |[http-nio-8090-exec-5]||Incoming request at client origin for request /origin 
+2022-06-30 16:49:57,268|INFO |[http-nio-8090-exec-7]||Incoming request at client origin for request /origin 
+2022-06-30 16:52:03,889|INFO |[http-nio-8090-exec-9]||Incoming request at client origin for request /origin 
+2022-06-30 16:53:13,264|INFO |[http-nio-8090-exec-1]||Incoming request at client origin for request /origin 
+2022-06-30 16:55:50,169|INFO |[http-nio-8090-exec-3]||Incoming request at client origin for request /origin 
+2022-06-30 16:57:44,383|INFO |[http-nio-8090-exec-5]||Incoming request at client origin for request /origin 
+2022-06-30 16:57:50,629|INFO |[http-nio-8090-exec-6]||Incoming request at client origin for request /origin 

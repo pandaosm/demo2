@@ -1,0 +1,532 @@
+2022-06-28 09:53:53,834|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-06-28 09:53:53,857|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-28 09:53:55,062|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-06-28 09:53:59,332|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-28 09:53:59,843|INFO |[restartedMain]||Finished Spring Data repository scanning in 478ms. Found 2 JPA repository interfaces.
+2022-06-28 09:54:01,104|INFO |[restartedMain]||BeanFactory id=e56aeb78-23de-311d-9642-4096db4a262b
+2022-06-28 09:54:04,133|INFO |[restartedMain]||Tomcat initialized with port(s): 8090 (http)
+2022-06-28 09:54:04,163|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8090"]
+2022-06-28 09:54:04,168|INFO |[restartedMain]||Starting service [Tomcat]
+2022-06-28 09:54:04,170|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-06-28 09:54:04,482|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-06-28 09:54:04,483|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 9379 ms
+2022-06-28 09:54:05,200|WARN |[restartedMain]||No URLs will be polled as dynamic configuration sources.
+2022-06-28 09:54:05,202|INFO |[restartedMain]||To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-28 09:54:05,241|INFO |[restartedMain]||DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4f0e426a
+2022-06-28 09:54:07,910|WARN |[restartedMain]||Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2022-06-28 09:54:08,654|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-06-28 09:54:09,599|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-06-28 09:54:09,745|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-06-28 09:54:10,149|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-06-28 09:54:10,157|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-06-28 09:54:10,966|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-06-28 09:54:11,338|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-06-28 09:54:14,145|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-28 09:54:14,153|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-28 09:54:15,139|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-06-28 09:54:17,091|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-28 09:54:17,573|INFO |[restartedMain]||Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-06-28 09:54:17,903|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-28 09:54:17,968|WARN |[restartedMain]||No URLs will be polled as dynamic configuration sources.
+2022-06-28 09:54:17,969|INFO |[restartedMain]||To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-28 09:54:18,273|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-28 09:54:18,460|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-06-28 09:54:21,368|INFO |[restartedMain]||Context refreshed
+2022-06-28 09:54:21,451|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-06-28 09:54:21,537|INFO |[restartedMain]||Scanning for api listing references
+2022-06-28 09:54:22,004|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_1
+2022-06-28 09:54:22,012|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_2
+2022-06-28 09:54:22,096|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8090"]
+2022-06-28 09:54:22,342|INFO |[restartedMain]||Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-28 09:54:23,085|INFO |[restartedMain]||Started DemoClientL in 31.645 seconds (JVM running for 34.238)
+2022-06-28 09:54:23,111|INFO |[restartedMain]||*****************info**************
+2022-06-28 09:54:23,951|INFO |[restartedMain]||HHH000327: Error performing load command : org.hibernate.HibernateException: More than one row with the given identifier was found: cer123, for class: com.example.demo.entity.Client
+org.hibernate.HibernateException: More than one row with the given identifier was found: cer123, for class: com.example.demo.entity.Client
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:90)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:54)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4342)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:482)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:452)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:203)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:262)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:105)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:73)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1260)
+	at org.hibernate.internal.SessionImpl.access$2000(SessionImpl.java:210)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2896)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2877)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2833)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2877)
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1101)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:271)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:151)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:65)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:904)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:890)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:314)
+	at jdk.proxy3/jdk.proxy3.$Proxy160.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:557)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:371)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:204)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:657)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:621)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:605)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy3/jdk.proxy3.$Proxy169.save(Unknown Source)
+	at com.example.demo.DemoClientL.run(DemoClientL.java:50)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:768)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoClientL.main(DemoClientL.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2022-06-28 09:54:24,010|INFO |[restartedMain]||
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-28 09:54:24,041|INFO |[restartedMain]||Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-28 09:54:24,050|INFO |[restartedMain]||Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-28 09:54:25,163|INFO |[restartedMain]||HikariPool-1 - Shutdown initiated...
+2022-06-28 09:54:26,147|INFO |[restartedMain]||HikariPool-1 - Shutdown completed.
+2022-06-28 09:54:26,157|WARN |[restartedMain]||Destroy method 'close' on bean with name 'traceHookRegisteringBeanDefinitionRegistryPostProcessor' threw an exception: java.lang.NoSuchMethodError: 'void reactor.core.publisher.Hooks.removeQueueWrapper(java.lang.String)'
+2022-06-28 09:54:26,214|ERROR|[restartedMain]||Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:768)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoClientL.main(DemoClientL.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.orm.jpa.JpaSystemException: More than one row with the given identifier was found: cer123, for class: com.example.demo.entity.Client; nested exception is org.hibernate.HibernateException: More than one row with the given identifier was found: cer123, for class: com.example.demo.entity.Client
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:353)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:255)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:528)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:153)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy3/jdk.proxy3.$Proxy169.save(Unknown Source)
+	at com.example.demo.DemoClientL.run(DemoClientL.java:50)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	... 10 common frames omitted
+Caused by: org.hibernate.HibernateException: More than one row with the given identifier was found: cer123, for class: com.example.demo.entity.Client
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:90)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:54)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4342)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:482)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:452)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:203)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:262)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:105)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:73)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1260)
+	at org.hibernate.internal.SessionImpl.access$2000(SessionImpl.java:210)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2896)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2877)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2833)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2877)
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1101)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:271)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:151)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:65)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:904)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:890)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:314)
+	at jdk.proxy3/jdk.proxy3.$Proxy160.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:557)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:371)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:204)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:657)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:621)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:605)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	... 19 common frames omitted
+2022-06-28 09:59:30,710|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-06-28 09:59:30,722|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-28 09:59:33,056|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-06-28 09:59:38,960|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-28 09:59:40,285|INFO |[restartedMain]||Finished Spring Data repository scanning in 1235ms. Found 2 JPA repository interfaces.
+2022-06-28 09:59:42,811|INFO |[restartedMain]||BeanFactory id=e56aeb78-23de-311d-9642-4096db4a262b
+2022-06-28 09:59:46,509|INFO |[restartedMain]||Tomcat initialized with port(s): 8090 (http)
+2022-06-28 09:59:46,544|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8090"]
+2022-06-28 09:59:46,546|INFO |[restartedMain]||Starting service [Tomcat]
+2022-06-28 09:59:46,547|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-06-28 09:59:46,919|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-06-28 09:59:46,923|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 13807 ms
+2022-06-28 09:59:47,697|WARN |[restartedMain]||No URLs will be polled as dynamic configuration sources.
+2022-06-28 09:59:47,703|INFO |[restartedMain]||To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-28 09:59:47,777|INFO |[restartedMain]||DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3a34cfc6
+2022-06-28 09:59:50,932|WARN |[restartedMain]||Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2022-06-28 09:59:51,814|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-06-28 09:59:52,544|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-06-28 09:59:52,828|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-06-28 09:59:53,216|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-06-28 09:59:53,230|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-06-28 09:59:54,013|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-06-28 09:59:54,458|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-06-28 09:59:56,951|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-28 09:59:56,966|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-28 09:59:58,039|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-06-28 10:00:00,300|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-28 10:00:01,295|INFO |[restartedMain]||Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-06-28 10:00:01,773|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-28 10:00:01,921|WARN |[restartedMain]||No URLs will be polled as dynamic configuration sources.
+2022-06-28 10:00:01,925|INFO |[restartedMain]||To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-28 10:00:03,796|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-28 10:00:04,278|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-06-28 10:00:08,686|INFO |[restartedMain]||Context refreshed
+2022-06-28 10:00:08,733|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-06-28 10:00:08,812|INFO |[restartedMain]||Scanning for api listing references
+2022-06-28 10:00:09,245|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_1
+2022-06-28 10:00:09,253|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_2
+2022-06-28 10:00:09,337|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8090"]
+2022-06-28 10:00:09,662|INFO |[restartedMain]||Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-28 10:00:10,433|INFO |[restartedMain]||Started DemoClientL in 42.899 seconds (JVM running for 46.509)
+2022-06-28 10:00:10,459|INFO |[restartedMain]||*****************info**************
+2022-06-28 10:00:10,926|INFO |[restartedMain]||HHH000327: Error performing load command : org.hibernate.HibernateException: More than one row with the given identifier was found: cer124, for class: com.example.demo.entity.Client
+org.hibernate.HibernateException: More than one row with the given identifier was found: cer124, for class: com.example.demo.entity.Client
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:90)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:54)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4342)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:482)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:452)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:203)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:262)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:105)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:73)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1260)
+	at org.hibernate.internal.SessionImpl.access$2000(SessionImpl.java:210)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2896)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2877)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2833)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2877)
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1101)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:271)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:151)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:65)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:904)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:890)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:314)
+	at jdk.proxy3/jdk.proxy3.$Proxy160.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:557)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:371)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:204)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:657)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:621)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:605)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy3/jdk.proxy3.$Proxy169.save(Unknown Source)
+	at com.example.demo.DemoClientL.run(DemoClientL.java:55)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:768)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoClientL.main(DemoClientL.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2022-06-28 10:00:10,945|INFO |[restartedMain]||
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-28 10:00:10,974|INFO |[restartedMain]||Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-28 10:00:10,987|INFO |[restartedMain]||Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-28 10:00:12,020|INFO |[restartedMain]||HikariPool-1 - Shutdown initiated...
+2022-06-28 10:00:12,114|INFO |[restartedMain]||HikariPool-1 - Shutdown completed.
+2022-06-28 10:00:12,127|WARN |[restartedMain]||Destroy method 'close' on bean with name 'traceHookRegisteringBeanDefinitionRegistryPostProcessor' threw an exception: java.lang.NoSuchMethodError: 'void reactor.core.publisher.Hooks.removeQueueWrapper(java.lang.String)'
+2022-06-28 10:00:12,185|ERROR|[restartedMain]||Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:768)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoClientL.main(DemoClientL.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.orm.jpa.JpaSystemException: More than one row with the given identifier was found: cer124, for class: com.example.demo.entity.Client; nested exception is org.hibernate.HibernateException: More than one row with the given identifier was found: cer124, for class: com.example.demo.entity.Client
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:353)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:255)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:528)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:153)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy3/jdk.proxy3.$Proxy169.save(Unknown Source)
+	at com.example.demo.DemoClientL.run(DemoClientL.java:55)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	... 10 common frames omitted
+Caused by: org.hibernate.HibernateException: More than one row with the given identifier was found: cer124, for class: com.example.demo.entity.Client
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:90)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:54)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4342)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:482)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:452)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:203)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:262)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:105)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:73)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1260)
+	at org.hibernate.internal.SessionImpl.access$2000(SessionImpl.java:210)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2896)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2877)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2833)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2877)
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1101)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:271)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:151)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:65)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:904)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:890)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:314)
+	at jdk.proxy3/jdk.proxy3.$Proxy160.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:557)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:371)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:204)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:657)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:621)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:605)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	... 19 common frames omitted
+2022-06-28 10:06:01,522|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-06-28 10:06:01,542|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-28 10:06:02,843|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-06-28 10:06:06,449|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-28 10:06:06,969|INFO |[restartedMain]||Finished Spring Data repository scanning in 487ms. Found 2 JPA repository interfaces.
+2022-06-28 10:06:08,151|INFO |[restartedMain]||BeanFactory id=e56aeb78-23de-311d-9642-4096db4a262b
+2022-06-28 10:06:11,000|INFO |[restartedMain]||Tomcat initialized with port(s): 8090 (http)
+2022-06-28 10:06:11,027|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8090"]
+2022-06-28 10:06:11,029|INFO |[restartedMain]||Starting service [Tomcat]
+2022-06-28 10:06:11,029|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-06-28 10:06:11,446|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-06-28 10:06:11,450|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 8540 ms
+2022-06-28 10:06:11,933|WARN |[restartedMain]||No URLs will be polled as dynamic configuration sources.
+2022-06-28 10:06:11,935|INFO |[restartedMain]||To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-28 10:06:11,972|INFO |[restartedMain]||DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@69747275
+2022-06-28 10:06:14,543|WARN |[restartedMain]||Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2022-06-28 10:06:15,427|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-06-28 10:06:16,110|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-06-28 10:06:16,334|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-06-28 10:06:16,684|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-06-28 10:06:16,691|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-06-28 10:06:17,367|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-06-28 10:06:17,960|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-06-28 10:06:20,304|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-28 10:06:20,319|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-28 10:06:21,403|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-06-28 10:06:23,572|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-28 10:06:24,016|INFO |[restartedMain]||Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-06-28 10:06:24,458|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-28 10:06:24,530|WARN |[restartedMain]||No URLs will be polled as dynamic configuration sources.
+2022-06-28 10:06:24,531|INFO |[restartedMain]||To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-28 10:06:24,868|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-28 10:06:25,041|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-06-28 10:06:27,993|INFO |[restartedMain]||Cannot determine local hostname
+2022-06-28 10:06:29,038|INFO |[restartedMain]||Context refreshed
+2022-06-28 10:06:29,084|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-06-28 10:06:29,169|INFO |[restartedMain]||Scanning for api listing references
+2022-06-28 10:06:29,634|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_1
+2022-06-28 10:06:29,642|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_2
+2022-06-28 10:06:29,789|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8090"]
+2022-06-28 10:06:30,017|INFO |[restartedMain]||Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-28 10:06:31,511|INFO |[restartedMain]||Cannot determine local hostname
+2022-06-28 10:06:32,859|INFO |[restartedMain]||Cannot determine local hostname
+2022-06-28 10:06:32,870|INFO |[restartedMain]||Started DemoClientL in 33.642 seconds (JVM running for 36.04)
+2022-06-28 10:06:32,899|INFO |[restartedMain]||*****************info**************
+2022-06-28 10:07:08,342|INFO |[http-nio-8090-exec-1]||Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-28 10:07:08,344|INFO |[http-nio-8090-exec-1]||Initializing Servlet 'dispatcherServlet'
+2022-06-28 10:07:08,447|INFO |[http-nio-8090-exec-1]||Completed initialization in 103 ms
+2022-06-28 10:07:08,614|INFO |[http-nio-8090-exec-1]||Incoming request at client origin for request /origin 
+2022-06-28 10:08:03,553|INFO |[http-nio-8090-exec-2]||Incoming request at client origin for request /origin 
+2022-06-28 10:08:39,805|WARN |[AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}]||Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2022-06-28 10:08:39,815|WARN |[AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}]||Dropped 3 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information)
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:748)
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:641)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:143)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:161)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:151)
+	at zipkin2.Call$Base.execute(Call.java:380)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:246)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:351)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:373)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:739)
+	... 9 common frames omitted
+2022-06-28 10:08:51,672|INFO |[http-nio-8090-exec-4]||Incoming request at client origin for request /origin 
+2022-06-28 10:11:19,348|INFO |[http-nio-8090-exec-3]||Incoming request at client origin for request /origin 
+2022-06-28 10:14:19,617|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-06-28 10:14:19,628|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-28 10:14:22,317|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-06-28 10:14:26,493|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-28 10:14:27,286|INFO |[restartedMain]||Finished Spring Data repository scanning in 758ms. Found 2 JPA repository interfaces.
+2022-06-28 10:14:28,026|INFO |[restartedMain]||BeanFactory id=ba2ed0e4-bfee-303a-b9bc-36f2fb2cb8a9
+2022-06-28 10:14:31,010|INFO |[restartedMain]||Tomcat initialized with port(s): 8090 (http)
+2022-06-28 10:14:31,047|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8090"]
+2022-06-28 10:14:31,049|INFO |[restartedMain]||Starting service [Tomcat]
+2022-06-28 10:14:31,050|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-06-28 10:14:31,420|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-06-28 10:14:31,421|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 9056 ms
+2022-06-28 10:14:31,848|WARN |[restartedMain]||No URLs will be polled as dynamic configuration sources.
+2022-06-28 10:14:31,849|INFO |[restartedMain]||To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-28 10:14:31,897|INFO |[restartedMain]||DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@b5479c9
+2022-06-28 10:14:33,507|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-06-28 10:14:34,340|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-06-28 10:14:34,629|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-06-28 10:14:34,984|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-06-28 10:14:34,998|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-06-28 10:14:35,889|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-06-28 10:14:36,411|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-06-28 10:14:39,536|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-28 10:14:39,542|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-28 10:14:40,548|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
+2022-06-28 10:14:42,162|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-28 10:14:42,495|INFO |[restartedMain]||Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-06-28 10:14:42,722|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-28 10:14:42,818|WARN |[restartedMain]||No URLs will be polled as dynamic configuration sources.
+2022-06-28 10:14:42,822|INFO |[restartedMain]||To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-06-28 10:14:43,110|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-28 10:14:43,208|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-06-28 10:14:45,913|INFO |[restartedMain]||Cannot determine local hostname
+2022-06-28 10:14:46,140|INFO |[restartedMain]||Context refreshed
+2022-06-28 10:14:46,290|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-06-28 10:14:46,461|INFO |[restartedMain]||Scanning for api listing references
+2022-06-28 10:14:46,896|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_1
+2022-06-28 10:14:46,905|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_2
+2022-06-28 10:14:46,966|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8090"]
+2022-06-28 10:14:47,239|INFO |[restartedMain]||Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-28 10:14:48,639|INFO |[restartedMain]||Cannot determine local hostname
+2022-06-28 10:14:49,929|INFO |[restartedMain]||Cannot determine local hostname
+2022-06-28 10:14:49,957|INFO |[restartedMain]||Started DemoClientL in 33.558 seconds (JVM running for 36.691)
+2022-06-28 10:14:50,006|INFO |[restartedMain]||*****************info**************
+2022-06-28 10:14:59,247|INFO |[http-nio-8090-exec-1]||Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-28 10:14:59,248|INFO |[http-nio-8090-exec-1]||Initializing Servlet 'dispatcherServlet'
+2022-06-28 10:14:59,288|INFO |[http-nio-8090-exec-1]||Completed initialization in 39 ms
+2022-06-28 10:14:59,369|INFO |[http-nio-8090-exec-1]||Incoming request at client origin for request /origin 
+2022-06-28 10:16:38,912|INFO |[http-nio-8090-exec-3]||Incoming request at client origin for request /origin 
+2022-06-28 10:17:38,098|INFO |[http-nio-8090-exec-6]||Incoming request at client origin for request /origin 
+2022-06-28 10:20:24,005|INFO |[http-nio-8090-exec-4]||client 14001
+2022-06-28 10:38:33,390|WARN |[HikariPool-1 housekeeper]||HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m4s664ms376µs700ns).
