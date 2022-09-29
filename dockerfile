@@ -12,12 +12,12 @@ ENV SPRING_OUTPUT_ANSI_ENABLED=ALWAYS \JAVA_OPTS=""
 WORKDIR /app
 
 # Copy the executable into the container at /app
-ADD target/*.jar clientmicro.jar
+ADD target/*.jar /app/client.jar
 
 # Make port 8085 available to the world outside this container
 EXPOSE 8092
 
 # Run app.jar when the container launches
-CMD ["java", "-jar", "/app/demoref.jar"]
+CMD ["java", "-jar", "/app/client.jar"]
 
 
