@@ -1,5 +1,5 @@
 # Use an OpenJDK Runtime as a parent image
-FROM openjdk:11
+FROM openjdk:8-jdk-alpine
 #FROM amazoncorretto-17
 #FROM adoptopenjdk/openjdk15:ubi
 
