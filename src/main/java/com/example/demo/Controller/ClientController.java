@@ -33,7 +33,7 @@ public class ClientController {
 	}
 	
 	
-	@GetMapping("/client/{customerId}")
+	@GetMapping("/client/{customerId}") // get client by Id
 	public Client getClientBycustomerId(@PathVariable String customerId) {
 		
 		log.info("client " + customerId)  ;
